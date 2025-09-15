@@ -1,5 +1,5 @@
 # Top of Mind
-- Finish your tabletop games!
+- Finish your [tabletop games](/Assignments/Tabletop/Tabletop)!
 - Feel free to utilize [the wilde lab](https://sva.instructure.com/courses/2280328) for prototyping.
 
 # SVA Game Design Fundamentals Syllabus
