@@ -77,11 +77,11 @@ Break
 
 ## Week 3 9/22 - Playtesting/Hello Godot
 
-- Playtesting
-- Getting started with Godot
-- [In Class Recording](https://youtube.com/live/B7TpNjIVCc4)
-- Nodes and Scenes
-- [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
+- 3:20-5:20 Playtesting
+
+- 5:30 - 6:10 Getting started with Godot
+  - Nodes and Scenes
+  - [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo)
 
 - **DUE: Tabletop Game**
 - **Homework: [Lab 1](/Assignments/Labs/Lab_1.md)**
