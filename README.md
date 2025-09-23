@@ -1,6 +1,6 @@
 # Top of Mind
-- Finish your [tabletop games](/Assignments/Tabletop/Tabletop.md)!
-- Feel free to utilize [the wilde lab](https://sva.instructure.com/courses/2280328) for prototyping.
+- Begin work on [Lab 1](/Assignments/Labs/Lab_1.md)
+- Use this [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
 # SVA Game Design Fundamentals Syllabus
 
