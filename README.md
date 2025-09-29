@@ -1,4 +1,5 @@
 # Top of Mind
+- [Brainstorming Whiteboard](https://www.tldraw.com/f/aKnCICl7h_9ILBrqfY3pr?d=v0.0.1596.880.C59vVoRsls2JN5pcp9JqS)
 - Begin work on [Lab 1](/Assignments/Labs/Lab_1.md)
 - Use this [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 
