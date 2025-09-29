@@ -27,9 +27,17 @@ You can always:
 
 ```gdscript
 var x = 1
-x = x + 1
 print(x)
 
+#will print out "1"
+
+```
+---
+
+```gdscript
+
+var x = 1
+x = x + 1
 #will print out "2"
 ```
 
