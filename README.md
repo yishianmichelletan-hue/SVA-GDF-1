@@ -1,7 +1,11 @@
 # Top of Mind
-- [Brainstorming Whiteboard](https://www.tldraw.com/f/aKnCICl7h_9ILBrqfY3pr?d=v0.0.1596.880.C59vVoRsls2JN5pcp9JqS)
-- Begin work on [Lab 1](/Assignments/Labs/Lab_1.md)
-- Use this [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo) as reference
+- Check Canvas for your 2D Groups. Work in your groups on your [2D Game Design Document](/Assignments/2D/2D_Concept.md) which is due NEXT CLASS!
+  - [Brainstorming Whiteboard](https://www.tldraw.com/f/aKnCICl7h_9ILBrqfY3pr?d=v0.0.1596.880.C59vVoRsls2JN5pcp9JqS)
+- Finish working on [Lab 1](/Assignments/Labs/Lab_1.md)
+  - Use this [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo) as reference
+- Begin working on [Lab 2](/Assignments/Labs/Lab_2.md)
+    - [COnditional and Intro to Coding Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
+- **If you are confused book some office hours!** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # SVA Game Design Fundamentals Syllabus
 
@@ -91,8 +95,7 @@ Break
 
 ## Week 4 9/29 - Getting Started in 2D
 
-https://youtube.com/live/ckjou1uWdmA?feature=share
-
+[Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
 - Hello Godot- Hello Godot
   - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
   - Lab 1 review
