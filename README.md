@@ -4,7 +4,7 @@
 - Finish working on [Lab 1](/Assignments/Labs/Lab_1.md)
   - Use this [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo) as reference
 - Begin working on [Lab 2](/Assignments/Labs/Lab_2.md)
-    - [COnditional and Intro to Coding Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
+    - [Conditional and Intro to Coding Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 - **If you are confused book some office hours!** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # SVA Game Design Fundamentals Syllabus
