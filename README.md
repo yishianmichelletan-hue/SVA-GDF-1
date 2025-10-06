@@ -129,28 +129,15 @@ Break
   - Variables
   - Properties and Methods
   - [Conditionals](Resources/ConditionalDiagram.png)
-  - Input map
+
 
 - Git Collaboration and Branches
 
 - Using Nodes Together Controllable Character
   - Camera
   - Area2D
-  - ChgaracterBody
-  - CollisionShapes
 
 
-- Assets
-  - Tilemaps
-  - Sprite Sheets
-  - Paralax layers
-  - Where to find assets
-    - [Itch](https://itch.io)
-    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-    - [Kenny](https://kenney.nl/assets)
-    - [Noun Project](https://thenounproject.com/)
-    - [Dotown](https://dotown.maeda-design-room.net/)
-    - [Open Game Art](https://opengameart.org/)
 
 ### Resources
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
@@ -170,10 +157,25 @@ Break
  
 ## Week 6 10/13 – Input, Interactions and Patterns
 
-- Lab Review - 20
+- Functions/Signals Review
+- Input Map
 
-- Functions/Signals
+  - StaticBodies
+  - RigidBodies
+  - ChgaracterBody
+  - CollisionShapes
 
+- Assets
+  - Tilemaps
+  - Sprite Sheets
+  - Paralax layers
+  - Where to find assets
+    - [Itch](https://itch.io)
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
 
 - Common Patterns (Time permitting)
   - Items 
@@ -192,8 +194,6 @@ Break
 
 
 ## Week 7 10/20 - Level, Environment and UI Design
-
-- Area2D Review
 
 
 - Sound
