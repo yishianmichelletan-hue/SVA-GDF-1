@@ -11,7 +11,7 @@
 - Finish working on [Lab 2](/Assignments/Labs/Lab_2.md)
 
 Helpful Video Tutorials
-  - [Nodes, Sccenes and Github](https://www.youtube.com/watch?v=E1srposxZWo) as reference
+  - [Nodes, Sccenes and Github](https://www.youtube.com/watch?v=E1srposxZWo)
   - [Conditional and Intro to Coding Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 - **If you are confused book some office hours!** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
