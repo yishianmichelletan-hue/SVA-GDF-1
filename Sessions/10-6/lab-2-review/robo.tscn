@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://drbts3788tngn"]
+
+[ext_resource type="Texture2D" uid="uid://s124nr7p37gw" path="res://icon.svg" id="1_eb65j"]
+[ext_resource type="Script" uid="uid://cdcga7ptunvfy" path="res://icon.gd" id="2_bsexl"]
+[ext_resource type="FontFile" uid="uid://fmod3yf4e8xh" path="res://Oups.otf" id="4_au6oj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_gv23p"]
+font = ExtResource("4_au6oj")
+font_size = 64
+outline_size = 3
+outline_color = Color(1, 0.34117648, 1, 1)
+shadow_color = Color(0, 0, 0, 0.8901961)
+shadow_offset = Vector2(5, 6)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bsexl"]
+size = Vector2(122, 124)
+
+[node name="Player" type="Sprite2D"]
+texture = ExtResource("1_eb65j")
+script = ExtResource("2_bsexl")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+offset_left = -527.0
+offset_top = -288.0
+offset_right = -356.0
+offset_bottom = -212.0
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_gv23p")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("RectangleShape2D_bsexl")

@@ -1,0 +1,49 @@
+[gd_scene load_steps=6 format=3 uid="uid://blxv17gb1a8mr"]
+
+[ext_resource type="PackedScene" uid="uid://drbts3788tngn" path="res://robo.tscn" id="1_glv2v"]
+[ext_resource type="Script" uid="uid://7lvvs6kdedgq" path="res://npc.gd" id="2_uu6xs"]
+[ext_resource type="Texture2D" uid="uid://nguvyafkgjjo" path="res://Assets/Items/Boxes/Box1/Idle.png" id="3_r0du0"]
+[ext_resource type="PackedScene" uid="uid://v3onvbdoixux" path="res://trophy.tscn" id="4_cm0pq"]
+
+[sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_r0du0"]
+size = Vector2(128, 128)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_glv2v")]
+position = Vector2(61, 56)
+speed = 5
+
+[node name="NPC" type="Sprite2D" parent="."]
+position = Vector2(89, 247)
+texture = SubResource("PlaceholderTexture2D_r0du0")
+script = ExtResource("2_uu6xs")
+
+[node name="Box" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(250, 468.99997)
+scale = Vector2(10.875, 10.875)
+texture = ExtResource("3_r0du0")
+
+[node name="Box2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(473, 282)
+scale = Vector2(10.875, 10.875)
+texture = ExtResource("3_r0du0")
+
+[node name="Box3" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(734.99994, 490)
+scale = Vector2(10.875, 10.875)
+texture = ExtResource("3_r0du0")
+
+[node name="Trophy" parent="." instance=ExtResource("4_cm0pq")]
+position = Vector2(524, 76)
+
+[node name="Trophy2" parent="." instance=ExtResource("4_cm0pq")]
+position = Vector2(916.75, 125.25)
+scale = Vector2(1.867188, 2.1328125)
+points = 20
+
+[connection signal="trophy_collected" from="Trophy" to="Player" method="_on_trophy_trophy_collected"]
+[connection signal="trophy_collected" from="Trophy2" to="Player" method="_on_trophy_trophy_collected"]
