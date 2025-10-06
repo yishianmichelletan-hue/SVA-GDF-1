@@ -1,10 +1,18 @@
 # Top of Mind
-- Check Canvas for your 2D Groups. Work in your groups on your [2D Game Design Document](/Assignments/2D/2D_Concept.md) which is due NEXT CLASS!
-  - [Brainstorming Whiteboard](https://www.tldraw.com/f/aKnCICl7h_9ILBrqfY3pr?d=v0.0.1596.880.C59vVoRsls2JN5pcp9JqS)
-- Finish working on [Lab 1](/Assignments/Labs/Lab_1.md)
-  - Use this [Video Tutorial](https://www.youtube.com/watch?v=E1srposxZWo) as reference
-- Begin working on [Lab 2](/Assignments/Labs/Lab_2.md)
-    - [Conditional and Intro to Coding Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
+- Continue Developing your 2D Game:
+  - [Create a repository for Lab 3](/Assignments/Labs/Lab_3.md) 
+  - Try adding some assets to your project:
+    - [Itch](https://itch.io)
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
+- Finish working on [Lab 2](/Assignments/Labs/Lab_2.md)
+
+Helpful Video Tutorials
+  - [Nodes, Sccenes and Github](https://www.youtube.com/watch?v=E1srposxZWo) as reference
+  - [Conditional and Intro to Coding Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 - **If you are confused book some office hours!** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # SVA Game Design Fundamentals Syllabus
