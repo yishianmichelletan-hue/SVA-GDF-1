@@ -111,14 +111,39 @@ Break
     - [Past Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 
 
-- Git Collaboration and Branches
 
 - **Homework: [2D Game](/Assignments/2D/2DGame.md)**
 - **Homework: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
 ## Week 5 10/6 - Coding Fundamentals
 
-**NO IN PERSON CLASS - Will be a video lecture**
+- Coding Review
+  - Variables
+  - Properties and Methods
+  - [Conditionals](Resources/ConditionalDiagram.png)
+  - Input map
+
+- Git Collaboration and Branches
+
+- Using Nodes Together Controllable Character
+  - Camera
+  - Area2D
+  - ChgaracterBody
+  - CollisionShapes
+
+
+- Assets
+  - Tilemaps
+  - Sprite Sheets
+  - Paralax layers
+  - Where to find assets
+    - [Itch](https://itch.io)
+    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
+    - [Kenny](https://kenney.nl/assets)
+    - [Noun Project](https://thenounproject.com/)
+    - [Dotown](https://dotown.maeda-design-room.net/)
+    - [Open Game Art](https://opengameart.org/)
+
 ### Resources
 - [Lecture Part 1](https://youtube.com/live/_B1OV87gQ8E)
 - [Lecture Part 2](https://youtube.com/live/trp4iZQXosc)
@@ -130,20 +155,14 @@ Break
 ### Assignments
 - **DUE: Lab 1**
 - ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
+
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
+- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
  
 ## Week 6 10/13 – Input, Interactions and Patterns
 
 - Lab Review - 20
-
-- Input map
-
-- Using Nodes Together Controllable Character
-  - Camera
-  - Area2D
-  - ChgaracterBody
-  - CollisionShapes
 
 - Functions/Signals
 
@@ -161,7 +180,6 @@ Break
 - [2D Components](/Modules/2D/2D_Components/)
 
 ### Assignments
-- **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 - **DUE: Lab 2**
 
 
@@ -169,16 +187,6 @@ Break
 
 - Area2D Review
 
-- Assets
-  - Tilemaps
-  - Sprite Sheets
-  - Paralax layers
-  - Where to find assets
-    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-    - [Kenny](https://kenney.nl/assets)
-    - [Noun Project](https://thenounproject.com/)
-    - [Dotown](https://dotown.maeda-design-room.net/)
-    - [Open Game Art](https://opengameart.org/)
 
 - Sound
 - Lighting
