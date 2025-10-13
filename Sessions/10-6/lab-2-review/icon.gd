@@ -36,6 +36,9 @@ func _process(delta: float) -> void:
 
 func _on_trophy_trophy_collected(points) -> void:
 	score += points
-	var score_label = get_node("Label")
-	score_label.text = str("Score: ",score)
+	#var score_label = get_node("Label")
+	#score_label.text = str("Score: ",score)
+	#$Label.text = "Wahooo"
+	
+	$HUD/HBoxContainer/Label.text= 'cool!!!'
 	pass # Replace with function body.

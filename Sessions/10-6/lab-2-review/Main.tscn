@@ -21,7 +21,7 @@ script = ExtResource("2_uu6xs")
 
 [node name="Box" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(250, 468.99997)
+position = Vector2(250, 469)
 scale = Vector2(10.875, 10.875)
 texture = ExtResource("3_r0du0")
 
@@ -33,7 +33,7 @@ texture = ExtResource("3_r0du0")
 
 [node name="Box3" type="Sprite2D" parent="."]
 texture_filter = 1
-position = Vector2(734.99994, 490)
+position = Vector2(735, 490)
 scale = Vector2(10.875, 10.875)
 texture = ExtResource("3_r0du0")
 
@@ -42,7 +42,7 @@ position = Vector2(524, 76)
 
 [node name="Trophy2" parent="." instance=ExtResource("4_cm0pq")]
 position = Vector2(916.75, 125.25)
-scale = Vector2(1.867188, 2.1328125)
+scale = Vector2(1.86719, 2.13281)
 points = 20
 
 [connection signal="trophy_collected" from="Trophy" to="Player" method="_on_trophy_trophy_collected"]

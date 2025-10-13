@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dffkm736ry0lt"]
+
+[ext_resource type="Texture2D" uid="uid://c2nqmjmd43nbn" path="res://icon.svg" id="1_pjt0s"]
+[ext_resource type="Texture2D" uid="uid://bvff7xaxnwsl8" path="res://humboldt-penguin-transparent-background-e1741698215679-768x895.webp" id="2_wa5vi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wfnr8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_pjt0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wa5vi")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Character" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_wfnr8")
+frame = 1
+frame_progress = 0.931143

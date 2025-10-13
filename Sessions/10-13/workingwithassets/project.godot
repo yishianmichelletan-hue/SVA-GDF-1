@@ -10,8 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Lab2-Review"
-run/main_scene="uid://blxv17gb1a8mr"
+config/name="WorkingWithAssets"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
