@@ -149,17 +149,18 @@ Break
 
 ### Assignments
 - **DUE: Lab 1**
-- ****DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)****
+- **DUE: [2D Game Concept](/Assignments/2D/2D_Concept.md)**
 
 - **Homework: [Lab 2](/Assignments/Labs/Lab_2.md)**
 - **Homework: [Lab 3](/Assignments/Labs/Lab_3.md)**
 
  
 ## Week 6 10/13 – Input, Interactions and Patterns
+- Review
+  - Functions/Signals
+  - Input Map
 
-- Functions/Signals Review
-- Input Map
-
+- Physics Bodies
   - StaticBodies
   - RigidBodies
   - ChgaracterBody
@@ -193,8 +194,8 @@ Break
 - **DUE: Lab 2**
 
 
-## Week 7 10/20 - Level, Environment and UI Design
-
+## Week 7 10/20 - Level, Environment and UI Design - Playtesting 
+- **IN CLASS PLAYTEST - HAVE A GAME TO PLAY!**
 
 - Sound
 - Lighting
@@ -203,13 +204,12 @@ Break
 - **DUE: Lab 3**
 
 
-## Week 8 10/27 - Playtesting / Hello 3D
-- **IN CLASS PLAYTEST - HAVE A GAME TO PLAY!**
-- Hello 3D
-
+## Week 8 10/27 - NO IN PERSON CLASS 
+- Work in your groups on your projects
 ---
 
 ## Week 9 11/3 - 3D Environments
+- Hello 3D
 
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
