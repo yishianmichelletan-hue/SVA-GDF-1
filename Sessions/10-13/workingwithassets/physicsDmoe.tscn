@@ -1,0 +1,65 @@
+[gd_scene load_steps=9 format=3 uid="uid://chfg2wwv2ai6p"]
+
+[ext_resource type="Texture2D" uid="uid://c2nqmjmd43nbn" path="res://icon.svg" id="1_uedqs"]
+[ext_resource type="Texture2D" uid="uid://och82jdnkrlw" path="res://Free/Traps/Blocks/Idle.png" id="2_e6a3w"]
+[ext_resource type="Script" uid="uid://rsabmtxjtan6" path="res://character_body_2d.gd" id="3_4duyo"]
+[ext_resource type="Script" uid="uid://cunv833ytobn0" path="res://top_down_charcter.gd" id="4_sfx2k"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_e6a3w"]
+bounce = 10.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e6a3w"]
+size = Vector2(128, 128)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uedqs"]
+size = Vector2(1063, 149)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_sfx2k"]
+radius = 72.0
+
+[node name="Node2D" type="Node2D"]
+
+[node name="RigidBody2D" type="RigidBody2D" parent="."]
+position = Vector2(337, 0)
+mass = 10.0
+physics_material_override = SubResource("PhysicsMaterial_e6a3w")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RigidBody2D"]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_e6a3w")
+
+[node name="Sprite2D" type="Sprite2D" parent="RigidBody2D"]
+texture = ExtResource("1_uedqs")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(29, 477)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(521.5, 64.5)
+shape = SubResource("RectangleShape2D_uedqs")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(512.00006, 60.99999)
+scale = Vector2(64.72727, 9.818184)
+texture = ExtResource("2_e6a3w")
+
+[node name="PlatformerCharcter" type="CharacterBody2D" parent="."]
+position = Vector2(112, 0)
+script = ExtResource("3_4duyo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlatformerCharcter"]
+shape = SubResource("CircleShape2D_sfx2k")
+
+[node name="Sprite2D" type="Sprite2D" parent="PlatformerCharcter"]
+texture = ExtResource("1_uedqs")
+
+[node name="TopDownCharcter" type="CharacterBody2D" parent="."]
+position = Vector2(640, 272)
+script = ExtResource("4_sfx2k")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TopDownCharcter"]
+shape = SubResource("CircleShape2D_sfx2k")
+
+[node name="Sprite2D" type="Sprite2D" parent="TopDownCharcter"]
+modulate = Color(1, 0.29411766, 1, 1)
+texture = ExtResource("1_uedqs")

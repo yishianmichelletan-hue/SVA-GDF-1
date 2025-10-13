@@ -1,0 +1,45 @@
+[gd_scene load_steps=5 format=3 uid="uid://dx4kiln7clck5"]
+
+[ext_resource type="Script" uid="uid://djnnvqix3usy8" path="res://dialogue_box.gd" id="1_n23yb"]
+[ext_resource type="Texture2D" uid="uid://cfip8i66d1ghv" path="res://icon.svg" id="2_0nste"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_if77y"]
+content_margin_left = 0.0
+content_margin_top = 0.0
+content_margin_right = 0.0
+content_margin_bottom = 0.0
+bg_color = Color(0.8493319, 0.3613458, 0.5543687, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[sub_resource type="LabelSettings" id="LabelSettings_351bv"]
+font_size = 32
+
+[node name="DialogueBox" type="PanelContainer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 303.0
+offset_top = 406.0
+offset_right = -396.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_if77y")
+script = ExtResource("1_n23yb")
+my_dialogue = Array[String](["Hi Im talking", "What do we want to do today?", "ddddddd", ""])
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_0nste")
+
+[node name="Dialogue" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+text = "HELLO"
+label_settings = SubResource("LabelSettings_351bv")
