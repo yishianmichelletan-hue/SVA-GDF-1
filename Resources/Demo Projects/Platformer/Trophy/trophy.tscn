@@ -1,9 +1,9 @@
 [gd_scene load_steps=15 format=3 uid="uid://df6admmq7q3gg"]
 
-[ext_resource type="Script" path="res://Trophy/Trophy.gd" id="1_8aihf"]
-[ext_resource type="Texture2D" uid="uid://bargjvob5yp57" path="res://Assets/Items/Checkpoints/End/End (Idle).png" id="2_fba5o"]
-[ext_resource type="Texture2D" uid="uid://c31nh3jhm20av" path="res://Assets/Items/Checkpoints/End/End (Pressed) (64x64).png" id="3_41j3a"]
-[ext_resource type="Texture2D" uid="uid://cihiwpa0keb2p" path="res://Assets/Other/Transition.png" id="4_0ofv2"]
+[ext_resource type="Script" uid="uid://bif4auhgexgcd" path="res://Trophy/Trophy.gd" id="1_8aihf"]
+[ext_resource type="Texture2D" uid="uid://b1owv5luj3mxl" path="res://Assets/Items/Checkpoints/End/End (Idle).png" id="2_fba5o"]
+[ext_resource type="Texture2D" uid="uid://cqdcp6ekhc5d7" path="res://Assets/Items/Checkpoints/End/End (Pressed) (64x64).png" id="3_41j3a"]
+[ext_resource type="Texture2D" uid="uid://d3ayjyn304ykj" path="res://Assets/Other/Transition.png" id="4_0ofv2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qy8eq"]
 atlas = ExtResource("3_41j3a")

@@ -1,11 +1,11 @@
 [gd_scene load_steps=7 format=3 uid="uid://bosxdi82u7c4c"]
 
-[ext_resource type="Texture2D" uid="uid://obtbrlptthky" path="res://background/scroll_bg_sky.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://udnu8aekj8mh" path="res://background/scroll_bg_cloud_1.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://crkm8guj5obto" path="res://background/scroll_bg_cloud_2.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://bb8syr2l4kbwp" path="res://background/scroll_bg_cloud_3.png" id="4"]
-[ext_resource type="Texture2D" uid="uid://bitu0xunnhbjf" path="res://background/scroll_bg_fg_2.png" id="5"]
-[ext_resource type="Texture2D" uid="uid://bdhblhpgjebrc" path="res://background/scroll_bg_fg_1.png" id="6"]
+[ext_resource type="Texture2D" uid="uid://c1lnwh051ue1u" path="res://background/scroll_bg_sky.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://mcm1ta24o6ns" path="res://background/scroll_bg_cloud_1.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cncw86tkfdai7" path="res://background/scroll_bg_cloud_2.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bx30ooimlq4og" path="res://background/scroll_bg_cloud_3.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://cljumaml4ntgd" path="res://background/scroll_bg_fg_2.png" id="5"]
+[ext_resource type="Texture2D" uid="uid://xmhthhrk6xwq" path="res://background/scroll_bg_fg_1.png" id="6"]
 
 [node name="ParallaxBg" type="ParallaxBackground"]
 offset = Vector2(0, -200)

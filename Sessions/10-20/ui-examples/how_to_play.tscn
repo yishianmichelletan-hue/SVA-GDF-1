@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=3 uid="uid://bm74hyc12a6me"]
+
+[ext_resource type="Texture2D" uid="uid://c0vv4xtesnngy" path="res://icon.svg" id="1_g0446"]
+[ext_resource type="Script" uid="uid://ufya7nfeeqt1" path="res://how_to_play.gd" id="1_uvb5p"]
+[ext_resource type="FontFile" uid="uid://d2hdqklh4lux7" path="res://Thelamus.otf" id="2_uvb5p"]
+[ext_resource type="Texture2D" uid="uid://fwkdf0cmi5fy" path="res://humboldt-penguin-transparent-background-e1741698215679-768x895.webp" id="4_pg7y5"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pg7y5"]
+font = ExtResource("2_uvb5p")
+font_color = Color(0.396078, 1, 1, 1)
+
+[node name="How to Play" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_uvb5p")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(136, 185)
+texture = ExtResource("1_g0446")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="CenterContainer/HBoxContainer"]
+layout_mode = 2
+text = "Used WASD to move. Try not to die!"
+label_settings = SubResource("LabelSettings_pg7y5")
+
+[node name="Button" type="Button" parent="CenterContainer/HBoxContainer"]
+layout_mode = 2
+text = "Start Game!"
+
+[node name="HSlider" type="HSlider" parent="CenterContainer/HBoxContainer"]
+custom_minimum_size = Vector2(200, 40)
+layout_mode = 2
+
+[node name="TextureButton" type="TextureButton" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_g0446")
+texture_pressed = ExtResource("4_pg7y5")
+
+[connection signal="button_down" from="CenterContainer/HBoxContainer/Button" to="." method="_on_button_button_down"]

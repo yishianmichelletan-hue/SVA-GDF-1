@@ -1,14 +1,14 @@
 [gd_scene load_steps=45 format=3 uid="uid://bi4vnytdmm0g2"]
 
-[ext_resource type="Script" path="res://Player/Player.gd" id="1_f2hxp"]
-[ext_resource type="Texture2D" uid="uid://blucurgrfu56w" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_5tmfe"]
-[ext_resource type="Texture2D" uid="uid://dqtu6uhsuucqo" path="res://Assets/Main Characters/Ninja Frog/Fall (32x32).png" id="3_2nek7"]
-[ext_resource type="Texture2D" uid="uid://elhe17wqnbtv" path="res://Assets/Main Characters/Ninja Frog/Idle (32x32).png" id="4_iwqd8"]
-[ext_resource type="Texture2D" uid="uid://dkksl6k7n82at" path="res://Assets/Main Characters/Ninja Frog/Jump (32x32).png" id="5_jxwi6"]
-[ext_resource type="Texture2D" uid="uid://smn4r7nwcqu" path="res://Assets/Main Characters/Ninja Frog/Run (32x32).png" id="6_3gfsy"]
-[ext_resource type="Texture2D" uid="uid://dqlon1omwircu" path="res://Assets/Other/Dust Particle.png" id="7_sof5e"]
-[ext_resource type="AudioStream" uid="uid://bulmr2lpb7y4h" path="res://audio/sound_explode.wav" id="8_op3dm"]
-[ext_resource type="AudioStream" uid="uid://bpyko2i13mj0v" path="res://audio/sound_jump.wav" id="9_gadip"]
+[ext_resource type="Script" uid="uid://csikmbkkqwckt" path="res://Player/Player.gd" id="1_f2hxp"]
+[ext_resource type="Texture2D" uid="uid://ighsmw6nll4s" path="res://Assets/Main Characters/Desappearing (96x96).png" id="2_5tmfe"]
+[ext_resource type="Texture2D" uid="uid://bqnxtuu2lnkj0" path="res://Assets/Main Characters/Ninja Frog/Fall (32x32).png" id="3_2nek7"]
+[ext_resource type="Texture2D" uid="uid://bc6133uexi6kv" path="res://Assets/Main Characters/Ninja Frog/Idle (32x32).png" id="4_iwqd8"]
+[ext_resource type="Texture2D" uid="uid://b2i4860bo8ad7" path="res://Assets/Main Characters/Ninja Frog/Jump (32x32).png" id="5_jxwi6"]
+[ext_resource type="Texture2D" uid="uid://dityr0tpx5yim" path="res://Assets/Main Characters/Ninja Frog/Run (32x32).png" id="6_3gfsy"]
+[ext_resource type="Texture2D" uid="uid://qk24kblkaxwn" path="res://Assets/Other/Dust Particle.png" id="7_sof5e"]
+[ext_resource type="AudioStream" uid="uid://dmjdctqrf8n2u" path="res://audio/sound_explode.wav" id="8_op3dm"]
+[ext_resource type="AudioStream" uid="uid://ccce1upoqyl8y" path="res://audio/sound_jump.wav" id="9_gadip"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_nua6x"]
 radius = 11.0
@@ -271,23 +271,21 @@ particles_anim_loop = false
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_fso76"]
 lifetime_randomness = 0.1
 particle_flag_disable_z = true
-direction = Vector3(1, 1, 1)
-spread = 84.6
-gravity = Vector3(0, 0, 0)
-initial_velocity_min = 12.0
-initial_velocity_max = 72.0
-orbit_velocity_min = 0.0
-orbit_velocity_max = 0.0
-radial_accel_min = 12.35
-radial_accel_max = 19.55
 angle_min = 22.0
 angle_max = 57.6
+direction = Vector3(1, 1, 1)
+spread = 84.6
+initial_velocity_min = 12.0
+initial_velocity_max = 72.0
+gravity = Vector3(0, 0, 0)
+radial_accel_min = 12.35
+radial_accel_max = 19.55
 scale_min = 0.1
 scale_max = 0.5
 hue_variation_max = 0.04
-turbulence_enabled = true
 anim_speed_min = 0.45
 anim_speed_max = 1.1
+turbulence_enabled = true
 
 [node name="Frog" type="CharacterBody2D"]
 collision_layer = 3

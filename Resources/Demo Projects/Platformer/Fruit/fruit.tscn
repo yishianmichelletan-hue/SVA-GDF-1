@@ -1,9 +1,9 @@
 [gd_scene load_steps=30 format=3 uid="uid://5bjk586as2pg"]
 
-[ext_resource type="Script" path="res://Fruit/Fruit.gd" id="1_73muv"]
-[ext_resource type="Texture2D" uid="uid://dul6vxb8ptiib" path="res://Assets/Items/Fruits/Collected.png" id="2_d4qco"]
-[ext_resource type="Texture2D" uid="uid://dx3hufc6sag2h" path="res://Assets/Items/Fruits/Apple.png" id="3_klxkf"]
-[ext_resource type="AudioStream" uid="uid://cy7lxrapbqu1r" path="res://audio/sound_coin.wav" id="4_ttgdb"]
+[ext_resource type="Script" uid="uid://c85ngp4se3swy" path="res://Fruit/Fruit.gd" id="1_73muv"]
+[ext_resource type="Texture2D" uid="uid://bisajnhgftac8" path="res://Assets/Items/Fruits/Collected.png" id="2_d4qco"]
+[ext_resource type="Texture2D" uid="uid://huknwj5xh2hl" path="res://Assets/Items/Fruits/Apple.png" id="3_klxkf"]
+[ext_resource type="AudioStream" uid="uid://dpr3iuf1b36tw" path="res://audio/sound_coin.wav" id="4_ttgdb"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_52b4h"]
 atlas = ExtResource("2_d4qco")

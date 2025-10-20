@@ -1,9 +1,9 @@
 [gd_scene load_steps=43 format=3 uid="uid://nn4ryg3d5olq"]
 
-[ext_resource type="Script" path="res://Checkpoint/Checkpoint.gd" id="1_tgys8"]
-[ext_resource type="Texture2D" uid="uid://bk7d7yl4oduy0" path="res://Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png" id="2_5psjc"]
-[ext_resource type="Texture2D" uid="uid://bknxeq3lq38jg" path="res://Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png" id="3_fjikn"]
-[ext_resource type="Texture2D" uid="uid://difec6g02yisk" path="res://Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png" id="4_8ei1m"]
+[ext_resource type="Script" uid="uid://bgrwumfoq7px2" path="res://Checkpoint/Checkpoint.gd" id="1_tgys8"]
+[ext_resource type="Texture2D" uid="uid://b0bshpeaskktf" path="res://Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png" id="2_5psjc"]
+[ext_resource type="Texture2D" uid="uid://0pbkuwn3fu4s" path="res://Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png" id="3_fjikn"]
+[ext_resource type="Texture2D" uid="uid://bbce2qcjrcr8l" path="res://Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png" id="4_8ei1m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_j3k7h"]
 atlas = ExtResource("3_fjikn")
