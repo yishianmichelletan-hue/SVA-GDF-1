@@ -1,4 +1,5 @@
 # Top of Mind
+- Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 - Continue Developing your 2D Game:
   - [Create a repository for Lab 3](/Assignments/Labs/Lab_3.md) 
   - Try adding some assets to your project:
