@@ -1,15 +1,6 @@
 # Top of Mind
 - Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
-- Continue Developing your 2D Game:
-  - [Create a repository for Lab 3](/Assignments/Labs/Lab_3.md) 
-  - Try adding some assets to your project:
-    - [Itch](https://itch.io)
-    - [Kraftpix](https://craftpix.net/freebies/?utm_campaign=Website&utm_source=gamedev.net&utm_medium=10-free-2d-game-asset-sites)
-    - [Kenny](https://kenney.nl/assets)
-    - [Noun Project](https://thenounproject.com/)
-    - [Dotown](https://dotown.maeda-design-room.net/)
-    - [Open Game Art](https://opengameart.org/)
-- Finish working on [Lab 2](/Assignments/Labs/Lab_2.md)
+- Turn in your 2D Games!
 
 Helpful Video Tutorials
   - [Nodes, Sccenes and Github](https://www.youtube.com/watch?v=E1srposxZWo)
