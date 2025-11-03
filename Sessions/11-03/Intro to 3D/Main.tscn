@@ -1,0 +1,93 @@
+[gd_scene load_steps=13 format=3 uid="uid://3ipkjyam7t20"]
+
+[ext_resource type="Script" uid="uid://dcjmhp6jdeptn" path="res://character_body_3d.gd" id="1_glv2v"]
+[ext_resource type="Texture2D" uid="uid://dnenn4wjv7kkj" path="res://icon.svg" id="2_uu6xs"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rxg2q"]
+sky_top_color = Color(0.194113, 0.186189, 0.37426, 1)
+sky_horizon_color = Color(0.154966, 0.362843, 0.45069, 1)
+sky_energy_multiplier = 0.1
+ground_bottom_color = Color(0.0514715, 0.038388, 0.0250661, 1)
+ground_horizon_color = Color(0.0470588, 0.109804, 0.164706, 1)
+
+[sub_resource type="Sky" id="Sky_glv2v"]
+sky_material = SubResource("ProceduralSkyMaterial_rxg2q")
+
+[sub_resource type="Environment" id="Environment_uu6xs"]
+background_mode = 2
+sky = SubResource("Sky_glv2v")
+tonemap_mode = 2
+glow_enabled = true
+fog_light_color = Color(0.0873585, 0.0990661, 0.117472, 1)
+fog_density = 0.2292
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.1059
+volumetric_fog_albedo = Color(1.73271e-06, 0.9861, 0.987868, 1)
+volumetric_fog_emission = Color(0.33674, 0.137765, 0.40564, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r0du0"]
+albedo_color = Color(0.352941, 0.286275, 0.219608, 1)
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_rxg2q"]
+bounce = 1.0
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_rxg2q"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_glv2v"]
+radial_segments = 5
+rings = 5
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_uu6xs"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cm0pq"]
+albedo_texture = ExtResource("2_uu6xs")
+metallic_specular = 0.41
+uv1_scale = Vector3(1.54, 1.54, 1.54)
+uv2_scale = Vector3(1.08, 1.08, 1.08)
+uv2_offset = Vector3(0.23, 0, 0)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_r0du0"]
+material = SubResource("StandardMaterial3D_cm0pq")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_uu6xs")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="WorldEnvironment"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.65604, -1.82901)
+omni_range = 6.35762
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.85218, 1.99928, -2.19)
+use_collision = true
+size = Vector3(100, 1, 40)
+material = SubResource("StandardMaterial3D_r0du0")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.782356, 0.253383, -0.568961, -0.0367236, 0.930684, 0.363977, 0.621748, -0.263865, 0.737431, 0.0070622, 6.10561, -0.820088)
+light_color = Color(1, 0.533333, 1, 1)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.96793, 4.89853, -2.38029)
+mass = 100.0
+physics_material_override = SubResource("PhysicsMaterial_rxg2q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D"]
+shape = SubResource("SphereShape3D_rxg2q")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D"]
+mesh = SubResource("SphereMesh_glv2v")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.64491, 0)
+script = ExtResource("1_glv2v")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_uu6xs")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D"]
+mesh = SubResource("CapsuleMesh_r0du0")
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.59175, 0.926844, 3.80568)

@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://bbhdb6udbmorn"]
 
-[ext_resource type="Script" path="res://Camera3D.gd" id="1_l2325"]
-[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_widay"]
+[ext_resource type="Script" uid="uid://bjvlmm6c4r64j" path="res://Camera3D.gd" id="1_l2325"]
+[ext_resource type="Script" uid="uid://bo0x7qi1wqrkq" path="res://CharacterBody3D.gd" id="1_widay"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rnvbv"]
 sky_top_color = Color(0.760784, 0.160784, 0.505882, 1)
