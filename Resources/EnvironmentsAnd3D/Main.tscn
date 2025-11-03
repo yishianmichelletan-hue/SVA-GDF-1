@@ -1,13 +1,12 @@
-[gd_scene load_steps=15 format=3 uid="uid://cjky7rvskccaw"]
+[gd_scene load_steps=14 format=3 uid="uid://cjky7rvskccaw"]
 
-[ext_resource type="Texture2D" uid="uid://b1wtd2prq4sjf" path="res://BrickMaterial/Bricks075A_4K-PNG_Color.png" id="1_0sp0l"]
-[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_cxdoy"]
-[ext_resource type="Texture2D" uid="uid://cpqfdfdf8dsyl" path="res://BrickMaterial/Bricks075A_4K-PNG_AmbientOcclusion.png" id="2_0xbtk"]
-[ext_resource type="Texture2D" uid="uid://d3o5ies8jksbf" path="res://BrickMaterial/Bricks075A_4K-PNG_Displacement.png" id="3_idyv8"]
-[ext_resource type="Texture2D" uid="uid://cpbr8y4da1uhc" path="res://BrickMaterial/Bricks075A_4K-PNG_NormalGL.png" id="4_kfunl"]
-[ext_resource type="Texture2D" uid="uid://ckf1htbybmomr" path="res://BrickMaterial/Bricks075A_4K-PNG_Roughness.png" id="5_kmvcv"]
-[ext_resource type="ArrayMesh" uid="uid://bbnl6yuymn1ya" path="res://tree.obj" id="8_xnak8"]
-[ext_resource type="PackedScene" uid="uid://dladxpxxuab2s" path="res://PRINCIPALOFFICEdesk.glb" id="9_44uyl"]
+[ext_resource type="Texture2D" uid="uid://jt2vva42ixot" path="res://BrickMaterial/Bricks075A_4K-PNG_Color.png" id="1_0sp0l"]
+[ext_resource type="Script" uid="uid://bhgvmlaaf3v0d" path="res://CharacterBody3D.gd" id="1_cxdoy"]
+[ext_resource type="Texture2D" uid="uid://bnp83ou4ckfjx" path="res://BrickMaterial/Bricks075A_4K-PNG_AmbientOcclusion.png" id="2_0xbtk"]
+[ext_resource type="Texture2D" uid="uid://t44br4f2bxow" path="res://BrickMaterial/Bricks075A_4K-PNG_Displacement.png" id="3_idyv8"]
+[ext_resource type="Texture2D" uid="uid://ccesdq2snlg1m" path="res://BrickMaterial/Bricks075A_4K-PNG_NormalGL.png" id="4_kfunl"]
+[ext_resource type="Texture2D" uid="uid://cx2vtn1ydqqwo" path="res://BrickMaterial/Bricks075A_4K-PNG_Roughness.png" id="5_kmvcv"]
+[ext_resource type="PackedScene" uid="uid://c5jldhb8wrw6i" path="res://PRINCIPALOFFICEdesk.glb" id="9_44uyl"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_vite7"]
 sky_top_color = Color(0.0313726, 0.117647, 0.0784314, 1)
@@ -90,10 +89,6 @@ spot_angle = 49.1255
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.69169, -22.2126)
 light_color = Color(0.494118, 0.466667, 1, 1)
 shadow_enabled = true
-
-[node name="UploadsFiles3176920Lemon+trees+without+fruits" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.35021, 0.5, -20.2562)
-mesh = ExtResource("8_xnak8")
 
 [node name="PRINCIPALOFFICEdesk2" parent="." instance=ExtResource("9_44uyl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.08882, 2.49258, -16.7125)
