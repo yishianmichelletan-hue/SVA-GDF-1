@@ -247,9 +247,9 @@ Break
 ## Week 12 11/24 - NO CLASS (Thanksgiving Week)
 
 ## Week 13 12/1 - XR
-- ~~[MVP XR](https://github.com/Bezark-Teaching/MVP-XR)~~ LOL jk
-## Week 14 12/8 - Review
 
+## Week 14 12/8 - Review
+- **DUE: Final project playtest**
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 - Review 
@@ -257,7 +257,7 @@ Break
 ## Week 15 12/15 - Playtesting and Beyond
 
 - [Can I get a job in game design?](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
-- **DUE: Final project playtest**
+
 - **DUE: Game Review**
 
 - **DUE: Capstone Project**
