@@ -11,6 +11,6 @@ config_version=5
 [application]
 
 config/name="Intro to 3D"
-run/main_scene="res://Basic Scene.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+run/main_scene="uid://3ipkjyam7t20"
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"

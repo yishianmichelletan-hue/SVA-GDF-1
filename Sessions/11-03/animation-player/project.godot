@@ -12,5 +12,5 @@ config_version=5
 
 config/name="Animation Player"
 run/main_scene="uid://dfti2n3gywuqq"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"

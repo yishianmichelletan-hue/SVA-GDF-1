@@ -1,4 +1,5 @@
 # Top of Mind
+- [CAPSTONE BOARD](https://www.tldraw.com/f/cFgYZSyTLHTx7aH3Tsgk0?d=v-1076.-171.5917.3164.d1eKbua0MINKyT3pjk8jm)
 - Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
 - Turn in your 2D Games!
 
@@ -248,6 +249,8 @@ Break
 
 ## Week 14 12/8 - Review
 
+## Week 14 12/8 - Review
+- **DUE: Final project playtest**
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 - Review 
@@ -255,7 +258,7 @@ Break
 ## Week 15 12/15 - Playtesting and Beyond
 
 - [Can I get a job in game design?](https://docs.google.com/presentation/d/1m_Pme4QIolADS6MawXt3hmFRhTdkEl4ggMznYDdsHCk/edit?usp=sharing)
-- **DUE: Final project playtest**
+
 - **DUE: Game Review**
 
 - **DUE: Capstone Project**
