@@ -206,9 +206,6 @@ Break
 - [Capstone Brainstorm](/Modules/3D/CapstoneBrainstorm.md)
 
 - Introduction to 3D in Godot
-- Lighting and Camera Techniques in 3D Games
-
-- Materials, Models, Lights, Fog, Camera Attributes
 
 - **Homework: [Lab 4](/Assignments/Labs/Lab_4.md)**
 - **Homework: [Capstone Game](/Assignments/Capstone/Capstone_Game)** 
@@ -220,33 +217,35 @@ Break
 
 - Capstone presentations 
 
-
 - Review
 
+- Lighting and Camera Techniques in 3D Games
+- Materials, Models, Lights, Fog, Camera Attributes
 - Sound
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
-  - [Character Animation Combiner](https://nilooy.github.io/character-animation-combiner/)
-- Exporting
 
 - **DUE: Lab 4**
 
 ## Week 11 11/17 - Capstone Presentations
-- Evaluations
 
 - Exporting
-- Sound
+
+- Resources
 
 - NPCs
   - FSM
   - Navigation
 
-- Spawning, Ramps
+- Animated Characters
+  - [Mixamo](https://www.mixamo.com)
+
+
 
 ## Week 12 11/24 - NO CLASS (Thanksgiving Week)
 
 ## Week 13 12/1 - XR
-- ~~[MVP XR](https://github.com/Bezark-Teaching/MVP-XR)~~ LOL jk
+
 ## Week 14 12/8 - Review
 
 - [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
