@@ -12,6 +12,9 @@ const JUMP_VELOCITY = 4.5
 var gravity = ProjectSettings.get_setting("physics/3d/default_gravity")
 
 func _physics_process(delta):
+	
+	
+	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y -= gravity * delta
@@ -47,7 +50,12 @@ func _input(event):
 		Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
 		
 	if event is InputEventMouseMotion:
-		print(event.relative)
+		
 		camera_3d.rotate_x(-event.relative.y *0.005)
 		neck.rotate_y(-event.relative.x*0.005)
 		camera_3d.rotation.x = clamp(camera_3d.rotation.x, deg_to_rad(-30), deg_to_rad(60))
+
+
+func _on_area_3d_body_entered(body: Node3D) -> void:
+	body.scale += Vector3(0.2,0.2,0.2)
+	print(body)
