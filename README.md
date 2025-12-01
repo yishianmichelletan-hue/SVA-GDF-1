@@ -1,7 +1,5 @@
 # Top of Mind
-- [CAPSTONE BOARD](https://www.tldraw.com/f/cFgYZSyTLHTx7aH3Tsgk0?d=v-1076.-171.5917.3164.d1eKbua0MINKyT3pjk8jm)
-- Watch [Hello 3D Pt. 1](https://www.youtube.com/watch?v=YKmOb1VFDsQ) and [Hello 3D Pt. 2](https://www.youtube.com/watch?v=fMbfi5HR-uc)!
-- Turn in your 2D Games!
+- Submit your projects to the [CAPSTONE GAME JAM](https://itch.io/jam/sva-gdf-2025-capstone-jam)
 
 Helpful Video Tutorials
   - [Nodes, Sccenes and Github](https://www.youtube.com/watch?v=E1srposxZWo)
