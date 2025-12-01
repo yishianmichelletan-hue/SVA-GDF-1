@@ -249,11 +249,11 @@ Break
   - FSM
   - Navigation
 
-## Week 14 12/8 - Review
+- [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
 
 ## Week 14 12/8 - Review
 - **DUE: Final project playtest**
-- [Web Export Github Pages](https://bezark.github.io/FCLC-Video-Game-Design/Modules/WebExport/exports/v3/)
+
 
 - Review 
 
