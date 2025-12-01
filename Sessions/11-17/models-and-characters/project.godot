@@ -13,6 +13,9 @@ config_version=5
 config/name="Materials-and-Models"
 run/main_scene="uid://clftudqv601dy"
 config/features=PackedStringArray("4.5", "Forward Plus")
+boot_splash/bg_color=Color(0.22421035, 0.029977877, 0.27348363, 1)
+boot_splash/use_filter=false
+boot_splash/image="uid://quqomv6fknuh"
 
 [rendering]
 
