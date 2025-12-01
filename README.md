@@ -232,11 +232,6 @@ Break
 
 - Exporting
 
-- Resources
-
-- NPCs
-  - FSM
-  - Navigation
 
 - Animated Characters
   - [Mixamo](https://www.mixamo.com)
@@ -245,7 +240,14 @@ Break
 
 ## Week 12 11/24 - NO CLASS (Thanksgiving Week)
 
-## Week 13 12/1 - XR
+## Week 13 12/1 - Review
+- Particles
+- Animation Trees
+- Resources
+
+- NPCs
+  - FSM
+  - Navigation
 
 ## Week 14 12/8 - Review
 
