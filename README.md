@@ -1,5 +1,5 @@
 # Top of Mind
-- **First class:** Monday, January 13, 2026
+- **First class:** Monday, January 12, 2026 (TODAY!)
 - **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # SVA Game Design Fundamentals Syllabus
@@ -28,18 +28,18 @@ The work of the class consists of the following:
 | Assignment                                                                     | Description                                                                | Due Date                     | Points        |
 |:-------------------------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------|---------------|
 | Class Participation                                                            | Actively participate in class discussions and contribute to group projects.|                              | 25            |
-| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | TBD                          | 16            |
-| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | TBD                          | 24            |
-| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | TBD                          | 10            |
-| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | TBD                          | 25            |
-| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | TBD                          | 10            |
-| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | TBD                          | 10            |
-| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | Final                        | 30            |
+| [Tabletop Game](/Assignments/Tabletop/Tabletop.md)                             | A playable prototype of a tabletop game                                    | 2/2                          | 16            |
+| [Labs 1-4](/Assignments/Labs/)                                                 | 4 short coding assignments designed to build proficiency. 6 points each.   | 2/16, 2/23, 3/16, 3/30       | 24            |
+| [2D Game Design Document](/Assignments/2D/2D_Concept.md)                       | A brief paper describing your concept for the 2D Game                      | 2/16                         | 10            |
+| [2D Game](/Assignments/2D/2DGame.md)                                           | A playable prototype of a 2D game                                          | 3/23                         | 25            |
+| [Capstone Concept Presentation](/Assignments/Capstone/Capstone_Concept.md)     | A brief Presentation describing your concept for the Capstone Game         | 4/6                          | 10            |
+| [Game Review](/Assignments/Game_Review.md)                                     | Play one of the suggested games and review it!                             | 4/27                         | 10            |
+| [Capstone Game](/Assignments/Capstone/Capstone_Game.md)                        | A polished game. Can be an evolution of the 2D game or something new.      | 4/27                         | 30            |
 | **Total Points Possible**                                                      |                                                                            |                              | **150**       |
 
 All assignments will be graded on the due date. Students are always allowed to revise and resubmit work **up until the class before the final.**
 
-**Attendance:** Students are allowed 3 unexcused absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
+**Attendance:** Students are allowed 3 absences. After this, each unexcused absence will lower your final grade by 1/2 a letter, i.e. B+ -> B or A -> A-
 
 # **Course Outline**
 
@@ -49,7 +49,7 @@ The course is split into 3 distinct modules each with a unique project:
 - Week 10-14: 3D Game Design/Final Project Development
 
 
-## Week 1 - Monday 1/13 - What is a Game?
+## Week 1 - Monday 1/12 - What is a Game?
 
 - Who are you/Syllabus Review
 - Professor John
@@ -65,28 +65,27 @@ The course is split into 3 distinct modules each with a unique project:
 - [Tabletop Game](/Assignments/Tabletop/Tabletop.md)
 - [Game Review](/Assignments/Game_Review.md)
 
-## Week 2 - Monday 1/20 - NO CLASS (MLK Day)
+## Week 2 - Monday 1/19 - NO CLASS (MLK Day)
 
-## Week 3 - Monday 1/27 - Prototyping and Iteration
+## Week 3 - Monday 1/26 - ALSO NO CLASS 😱
+- Work on your tabletop games
+<!-- - Prototyping Tabletop Games: Balancing and Mechanics -->
+<!-- - MDA Framework -->
+<!-- - Systems, Loops and Balance -->
+
+## Week 4 - Monday 2/2 - Playtesting/Hello Godot
 
 - MDA Framework - Systems, Loops and Balance
-- Prototyping Tabletop Games: Balancing and Mechanics
-- MDA Framework
-- Systems, Loops and Balance
 
-## Week 4 - Monday 2/3 - Playtesting/Hello Godot
-
-- 3:20-5:20 Playtesting
-
+- 3:20-5:20 In class playtesting
 - 5:30 - 6:10 Getting started with Godot
   - Nodes and Scenes
 
-**DUE: Tabletop Game**
 **Homework: Lab 1**
-
+**DUE: Tabletop Game**
 ---
 
-## Week 5 - Monday 2/10 - Getting Started in 2D
+## Week 5 - Monday 2/9 - Getting Started in 2D
 
 - Hello Godot
   - Nodes and Scenes
@@ -97,11 +96,12 @@ The course is split into 3 distinct modules each with a unique project:
   - Variables
   - Conditionals
 
+
 **Homework:**
 - [2D Game](/Assignments/2D/2DGame.md)
 - [2D Game Concept](/Assignments/2D/2D_Concept.md)
 
-## Week 6 - Monday 2/17 - Coding Fundamentals
+## Week 6 - Monday 2/16 - Coding Fundamentals
 
 - Coding Review
   - Variables
@@ -117,7 +117,7 @@ The course is split into 3 distinct modules each with a unique project:
 **Homework: Lab 2**
 **Homework: Lab 3**
 
-## Week 7 - Monday 2/24 - Input, Interactions and Patterns
+## Week 7 - Monday 2/23 - Input, Interactions and Patterns
 
 - Review
   - Functions/Signals
@@ -143,8 +143,11 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 8 - Monday 3/2 - NO CLASS (Spring Break)
 
-## Week 9 - Monday 3/9 - Level, Environment and UI Design - Playtesting
+## Week 9 - Monday 3/9 - Project Development
 
+- Work in your groups on your projects
+
+## Week 10 - Monday 3/16 - Level, Environment and UI Design - Playtesting
 - **IN CLASS PLAYTEST - HAVE A GAME TO PLAY!**
 - Sound
 - Lighting
@@ -153,9 +156,6 @@ The course is split into 3 distinct modules each with a unique project:
 
 **DUE: Lab 3**
 
-## Week 10 - Monday 3/16 - Project Development
-
-- Work in your groups on your projects
 
 ---
 
