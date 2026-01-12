@@ -51,19 +51,21 @@ The course is split into 3 distinct modules each with a unique project:
 
 ## Week 1 - Monday 1/12 - What is a Game?
 
+- [Week 1 Slides](https://docs.google.com/presentation/d/1XyTh790-vgH1Z5X2Lh1e2syvccYtGBS-zmjpKJIgLjc/edit?usp=sharing)
+- [FILL OUT THIS FORM](https://forms.gle/5X6TjT88Yg5m5XLs8) so you can tell me if I’m giving you too much homework!
+- [Gamer Graph](https://www.tldraw.com/r/QirxMZ-xUEQYfwIW_xXY0?d=v226.-239.1752.864.page)
 - Who are you/Syllabus Review
 - Professor John
 - Game Design Fundamentals
-- Break
-- The Iterative Game Design Process
+Break
+- The Iterative Game Design Process 20
 - Prototyping
 - Playtesting
 - Group Work
 
-**Homework:**
-- Read MDA Article
-- [Tabletop Game](/Assignments/Tabletop/Tabletop.md)
-- [Game Review](/Assignments/Game_Review.md)
+- **Homework: Read [MDA Article](https://github.com/Bezark-Teaching/SVA-DSD-4721-GDF/blob/main/Readings/MDA.pdf)**
+- **Homework: [Tabletop Game](/Assignments/Tabletop/Tabletop.md)**
+- **Homework: [Game Review](/Assignments/Game_Review.md)**
 
 ## Week 2 - Monday 1/19 - NO CLASS (MLK Day)
 
