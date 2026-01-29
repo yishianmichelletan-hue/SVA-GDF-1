@@ -1,7 +1,7 @@
 # Top of Mind
 - [What type of Gamer are you?](https://www.tldraw.com/f/6pczkwlJGnyNMCOs1gHnE?d=v-214.-72.1311.786.XHZ7ZpgLV94XQ1JDw2kcs)
 - **First class:** Monday, January 12, 2026 (TODAY!)
-- **Office Hours:** Thursday 1-5pm. [Book here](https://bit.ly/bezark-office-hours)
+- **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # SVA Game Design Fundamentals Syllabus
 
