@@ -80,15 +80,12 @@ Break
 
 
 - 3:20-5:20 In class playtesting
-- MDA Framework - Systems, Loops and Balance
-  - Nodes and Scenes
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 
 **DUE: Tabletop Game**
 ---
 
 ## Week 5 - Monday 2/9 - Getting Started in 2D
-
-- Getting started with Godot
 - Hello Godot
   - Nodes and Scenes
 - Genres in 2D
