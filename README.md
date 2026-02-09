@@ -90,22 +90,28 @@ Break
 
 ## Week 5 - Monday 2/9 - Getting Started in 2D
 
-- Hello Godot
+- Hello Godot- Hello Godot
+  - [Video turotial on Github and Godot](https://www.youtube.com/watch?v=E1srposxZWo)
+  - Lab 1 review
   - Nodes and Scenes
-- Genres in 2D
-  - 2D Game Brainstorming
-- Coding Fundamentals
+
+- [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
+  - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+
+- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
   - Variables
-  - Conditionals
-
+- [Conditionals](Resources/ConditionalDiagram.png)
+    - [Past Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
 
 **Homework:**
+- [Lab 1](/Assignments/Labs/Lab_1.md)
 - [2D Game](/Assignments/2D/2DGame.md)
 - [2D Game Concept](/Assignments/2D/2D_Concept.md)
 
 ## Week 6 - Monday 2/16 - Coding Fundamentals
 
+- [Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
 - Coding Review
   - Variables
   - Properties and Methods
