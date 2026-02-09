@@ -1,5 +1,5 @@
 # Top of Mind
-- [What type of Gamer are you?](https://www.tldraw.com/f/6pczkwlJGnyNMCOs1gHnE?d=v-214.-72.1311.786.XHZ7ZpgLV94XQ1JDw2kcs)
+- [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
 - **First class:** Monday, January 12, 2026 (TODAY!)
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
@@ -94,6 +94,8 @@ Break
 
 - [Genres in 2D](https://docs.google.com/presentation/d/1ai6uhVzULKb22SbQ3zjPipXxItFrU2wMqn8B6BJ_dQM/edit)
   - [2D Game Brainstorming](/Resources/2D_Brainstorming.md)
+    - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
+
 
 - [Coding Fundamentals](Resources/Coding_Fundamentals.md)
   - Scripts and properties
