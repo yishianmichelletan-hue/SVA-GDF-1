@@ -1,5 +1,10 @@
 # Top of Mind
-- [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
+- Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
+  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by nexgt class!**
+  - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
+- Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md)
+  - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
+
 - **First class:** Monday, January 12, 2026 (TODAY!)
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
@@ -97,12 +102,6 @@ Break
     - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
 
 
-- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
-  - Scripts and properties
-  - Variables
-- [Conditionals](Resources/ConditionalDiagram.png)
-    - [Past Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
-
 **Homework:**
 - [Lab 1](/Assignments/Labs/Lab_1.md)
 - [2D Game](/Assignments/2D/2DGame.md)
@@ -111,6 +110,13 @@ Break
 ## Week 6 - Monday 2/16 - Coding Fundamentals
 
 - [Lab 1 Review](https://youtube.com/live/ckjou1uWdmA?feature=share)
+
+- [Coding Fundamentals](Resources/Coding_Fundamentals.md)
+  - Scripts and properties
+  - Variables
+- [Conditionals](Resources/ConditionalDiagram.png)
+    - [Past Lecture](https://www.youtube.com/watch?v=PyADIUsLobs)
+
 - Coding Review
   - Variables
   - Properties and Methods
