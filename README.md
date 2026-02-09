@@ -1,6 +1,6 @@
 # Top of Mind
 - Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
-  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by nexgt class!**
+  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by next class!**
   - [Watch 9 Tips for Getting Game Dev Done on Time](https://www.youtubeeducation.com/watch?v=pAYi-kbayYY) for help with the process
   - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
 - Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md)
