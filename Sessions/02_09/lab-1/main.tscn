@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://ds6ffk76ee6ox"]
+
+[ext_resource type="Texture2D" uid="uid://c2vsgyshhcy62" path="res://Pictures/9-2-kitten-png-clipart.png" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://b3wkfydsp2uft" path="res://icon.svg" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://4ecgbqfdno42" path="res://tree.tscn" id="3_h2yge"]
+
+[node name="Node2D" type="Node2D" unique_id=1702837267]
+position = Vector2(76, 100)
+rotation = -0.038397245
+
+[node name="SadKitty" type="Sprite2D" parent="." unique_id=160742320]
+position = Vector2(727.93585, 276.1474)
+scale = Vector2(1.2919531, 1.2919531)
+texture = ExtResource("1_0xm2m")
+
+[node name="SadKitty2" type="Sprite2D" parent="SadKitty" unique_id=1842051511]
+position = Vector2(135.7287, 100.61894)
+scale = Vector2(0.32397956, 0.32397956)
+texture = ExtResource("1_0xm2m")
+
+[node name="Robot" type="Sprite2D" parent="." unique_id=1072744016]
+position = Vector2(-4.785492, 411.11932)
+texture = ExtResource("2_h2yge")
+
+[node name="EvilRobot" type="Sprite2D" parent="Robot" unique_id=513091610]
+modulate = Color(1, 0.19607843, 0.09019608, 1)
+position = Vector2(122.718575, 35.737213)
+texture = ExtResource("2_h2yge")
+
+[node name="BigTree" parent="." unique_id=1097440797 instance=ExtResource("3_h2yge")]
+offset_left = 43.955795
+offset_top = -258.50317
+offset_right = 148.95576
+offset_bottom = -186.50314
+scale = Vector2(5, 5)
+
+[node name="ColorRect" parent="BigTree" index="0" unique_id=1206739893]
+offset_left = -33.12155
+offset_top = 2.5304108
+offset_right = 6.8784485
+offset_bottom = 76.53041
+
+[node name="Little" type="ColorRect" parent="." unique_id=709896894]
+offset_left = 607.2029
+offset_top = -45.724518
+offset_right = 712.2029
+offset_bottom = 26.275513
+color = Color(0.92444414, 0.87308276, 0.26929888, 1)
+
+[node name="Tree" parent="." unique_id=538882533 instance=ExtResource("3_h2yge")]
+offset_left = 344.29987
+offset_top = 249.27051
+offset_right = 449.29987
+offset_bottom = 321.2705
+
+[editable path="BigTree"]
