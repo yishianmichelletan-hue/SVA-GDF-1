@@ -70,7 +70,7 @@ Break
 
 ## Week 2 - Monday 1/19 - NO CLASS (MLK Day)
 
-## Week 3 - Monday 1/26 - ALSO NO CLASS 😱
+## Week 3 - Monday 1/26 - SNOOOOOOW 😱
 - Work on your tabletop games
 <!-- - Prototyping Tabletop Games: Balancing and Mechanics -->
 <!-- - MDA Framework -->
@@ -78,13 +78,10 @@ Break
 
 ## Week 4 - Monday 2/2 - Playtesting/Hello Godot
 
-- MDA Framework - Systems, Loops and Balance
 
 - 3:20-5:20 In class playtesting
-- 5:30 - 6:10 Getting started with Godot
-  - Nodes and Scenes
+- [MDA Framework - Systems, Loops and Balance](https://docs.google.com/presentation/d/1uAetOnfggzveGghece6A0NgGgMXQ8v8cDA54FXqsL08/edit?usp=sharing)
 
-**Homework: Lab 1**
 **DUE: Tabletop Game**
 ---
 
