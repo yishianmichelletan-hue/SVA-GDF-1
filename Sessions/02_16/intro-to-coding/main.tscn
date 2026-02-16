@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bak6ndo531e0p"]
+
+[ext_resource type="Script" uid="uid://c7il0y6ugnvtj" path="res://other_script.gd" id="1_0xm2m"]
+[ext_resource type="PackedScene" uid="uid://drywqy8odsb25" path="res://robot.tscn" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D" unique_id=1849155154]
+script = ExtResource("1_0xm2m")
+
+[node name="Robot" parent="." unique_id=1563663325 instance=ExtResource("1_ig7tw")]
+position = Vector2(-3, -1)
+my_name = "Roger"

@@ -1,12 +1,8 @@
 # Top of Mind
-- Begin Working on your [2D Games](/Assignments/2D/2DGame.md)
-  - **Complete the [2D Game Design Document](/Assignments/2D/2D_Concept.md) by next class!**
-  - [Watch 9 Tips for Getting Game Dev Done on Time](https://www.youtube.com/watch?v=pAYi-kbayYY) for help with the process
-  - [2D Brainstorming](https://www.tldraw.com/f/GXTD63O4soKhQfKmLZF5t?d=v0.0.1620.858.page)
-- Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md)
+- Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
   - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
+  - [Past Lecture on COnditional Statements](https://www.youtube.com/watch?v=PyADIUsLobs)
 
-- **First class:** Monday, January 12, 2026 (TODAY!)
 - **Office Hours:** Thursday 12-4pm. [Book here](https://bit.ly/bezark-office-hours)
 
 # SVA Game Design Fundamentals Syllabus
