@@ -1,4 +1,5 @@
 # Top of Mind
+- MO SNO?!?! Here's a [video tutorial to watch in lieu of in person class](https://www.youtube.com/live/zUN2pb6N3uI?si=eGFEQVGbHzK_UThX)
 - Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
   - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
   - [Past Lecture on COnditional Statements](https://www.youtube.com/watch?v=PyADIUsLobs)
@@ -138,6 +139,13 @@ Break
   - RigidBodies
   - CharacterBody
   - CollisionShapes
+
+**DUE: Lab 2**
+
+## Week 8 - Monday 3/2 - NO CLASS (Spring Break)
+
+## Week 9 - Monday 3/9 - Project Development
+
 - Assets
   - Cursors
   - Tilemaps
@@ -152,12 +160,6 @@ Break
   - Checkpoints
   - Respawns
   - Killboxes
-
-**DUE: Lab 2**
-
-## Week 8 - Monday 3/2 - NO CLASS (Spring Break)
-
-## Week 9 - Monday 3/9 - Project Development
 
 - Work in your groups on your projects
 
