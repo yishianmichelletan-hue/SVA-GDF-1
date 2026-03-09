@@ -139,11 +139,14 @@ Break
   - CharacterBody
   - CollisionShapes
 - Assets
+  - Cursors
   - Tilemaps
   - Sprite Sheets
   - Parallax layers
   - Where to find assets
+- UI
 - Common Patterns (Time permitting)
+  - Moving Platforms
   - Items
   - Enemies
   - Checkpoints
