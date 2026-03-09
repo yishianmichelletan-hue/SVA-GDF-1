@@ -139,6 +139,13 @@ Break
   - RigidBodies
   - CharacterBody
   - CollisionShapes
+
+**DUE: Lab 2**
+
+## Week 8 - Monday 3/2 - NO CLASS (Spring Break)
+
+## Week 9 - Monday 3/9 - Project Development
+
 - Assets
   - Tilemaps
   - Sprite Sheets
@@ -150,12 +157,6 @@ Break
   - Checkpoints
   - Respawns
   - Killboxes
-
-**DUE: Lab 2**
-
-## Week 8 - Monday 3/2 - NO CLASS (Spring Break)
-
-## Week 9 - Monday 3/9 - Project Development
 
 - Work in your groups on your projects
 
