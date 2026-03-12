@@ -1,4 +1,6 @@
 # Top of Mind
+- [Video Tutorial on working with assets](https://fordham.zoom.us/rec/share/ANQ-ca_Prp1ip3dGjLw5jJBhDJBRDaIY3pAGhL6xRjodZbcvddFtetn3EcrgJOIw.LO0VNmkoQg6xAJrd) password: gS^p9%Z!
+
 - MO SNO?!?! Here's a [video tutorial to watch in lieu of in person class](https://www.youtube.com/live/zUN2pb6N3uI?si=eGFEQVGbHzK_UThX)
 - Begin Working on [Lab 1](/Assignments/Labs/Lab_1.md), [Lab 2](/Assignments/Labs/Lab_2.md) and [Lab 3](/Assignments/Labs/Lab_3.md)
   - [Video turotial on Github and Godot Covering all of Lab 1](https://www.youtube.com/watch?v=E1srposxZWo)
