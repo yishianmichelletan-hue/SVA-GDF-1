@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://c34e34dm6g1oa"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="1_d7iic"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="2_2q81w"]
+[ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="2_yny61"]
+[ext_resource type="Script" uid="uid://babrcn0syhrne" path="res://Examples/Levels/PlayerKillbox.gd" id="3_pvrkm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a27bq"]
+size = Vector2(860, 41)
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_yny61"]
+
+[node name="RespawnDemo" type="Node2D" unique_id=1447304825]
+
+[node name="RigidBody Boxes" type="Node2D" parent="." unique_id=44800038]
+position = Vector2(-169, -115)
+rotation = 0.494464
+
+[node name="Box2" parent="RigidBody Boxes" unique_id=1402363572 instance=ExtResource("2_yny61")]
+position = Vector2(59.7708, -64.0347)
+physics_material_override = null
+
+[node name="Box4" parent="RigidBody Boxes" unique_id=797723063 instance=ExtResource("2_yny61")]
+position = Vector2(99.5727, 22.4338)
+physics_material_override = null
+
+[node name="Box5" parent="RigidBody Boxes" unique_id=2000295340 instance=ExtResource("2_yny61")]
+position = Vector2(89.6681, -8.58068)
+rotation = -2.25658
+physics_material_override = null
+
+[node name="Box3" parent="RigidBody Boxes" unique_id=32670577 instance=ExtResource("2_yny61")]
+position = Vector2(78.5465, -35.5308)
+physics_material_override = null
+
+[node name="Floor" type="StaticBody2D" parent="." unique_id=79649187]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor" unique_id=1475278738]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=1849463698]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_a27bq")
+
+[node name="Items" type="Node2D" parent="." unique_id=38396143]
+
+[node name="Fruit" parent="Items" unique_id=308437746 instance=ExtResource("2_2q81w")]
+position = Vector2(189, 76)
+
+[node name="Fruit2" parent="Items" unique_id=1441365438 instance=ExtResource("2_2q81w")]
+position = Vector2(264, 76)
+points = 2
+
+[node name="Fruit3" parent="Items" unique_id=528141328 instance=ExtResource("2_2q81w")]
+position = Vector2(348, 76)
+points = 387
+
+[node name="Killbox" type="Area2D" parent="." unique_id=1892703483]
+position = Vector2(0, 218)
+script = ExtResource("3_pvrkm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=570821603]
+position = Vector2(914, 79)
+shape = SubResource("WorldBoundaryShape2D_yny61")
+
+[node name="Respawn" type="Marker2D" parent="." unique_id=779114574]
+position = Vector2(467, 71)
+
+[node name="Player" parent="." unique_id=1988296727 instance=ExtResource("1_d7iic")]
+position = Vector2(11, -160)
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

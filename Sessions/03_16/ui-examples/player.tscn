@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://ishqo8c65him"]
+
+[ext_resource type="Script" uid="uid://b2fe02mcfucvm" path="res://top_down_character.gd" id="1_v56iv"]
+[ext_resource type="Texture2D" uid="uid://ddqdrcqua7ued" path="res://icon.svg" id="2_hvmjb"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rpind"]
+size = Vector2(129, 129)
+
+[node name="TopDownCharacter" type="CharacterBody2D" unique_id=429273242]
+script = ExtResource("1_v56iv")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=689548610]
+texture = ExtResource("2_hvmjb")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=719999392]
+position = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_rpind")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=253425033]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=593135118]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer" unique_id=571209775]
+offset_right = 62.0
+offset_bottom = 23.0
+
+[node name="ScoreLabel" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=1686376546]
+layout_mode = 2
+text = "Score:"
+
+[node name="Score" type="Label" parent="CanvasLayer/HBoxContainer" unique_id=68198396]
+layout_mode = 2
+text = "0"
+
+[node name="Timer" type="Timer" parent="." unique_id=1190478061]
+wait_time = 10.0
+one_shot = true
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

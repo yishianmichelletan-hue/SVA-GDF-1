@@ -1,4 +1,5 @@
 # Top of Mind
+- [Common 2D Game Design Patterns](https://youtu.be/dAl7IKXBuTE)
 - [Video Tutorial on working with assets](https://fordham.zoom.us/rec/share/ANQ-ca_Prp1ip3dGjLw5jJBhDJBRDaIY3pAGhL6xRjodZbcvddFtetn3EcrgJOIw.LO0VNmkoQg6xAJrd) password: gS^p9%Z!
 
 - MO SNO?!?! Here's a [video tutorial to watch in lieu of in person class](https://www.youtube.com/live/zUN2pb6N3uI?si=eGFEQVGbHzK_UThX)
