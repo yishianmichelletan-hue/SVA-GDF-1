@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://qbh8nt0f5sgr"]
+[gd_scene load_steps=7 format=3 uid="uid://qbh8nt0f5sgr"]
 
 [ext_resource type="PackedScene" uid="uid://dohej3k23y176" path="res://Examples/Items/rigidbody_box.tscn" id="1_xt4di"]
 [ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="2_6h8xj"]
@@ -11,67 +11,67 @@ size = Vector2(860, 41)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
 size = Vector2(2927, 177)
 
-[node name="RespawnDemo" type="Node2D" unique_id=1447304825]
+[node name="RespawnDemo" type="Node2D"]
 
-[node name="RigidBody Boxes" type="Node2D" parent="." unique_id=44800038]
+[node name="RigidBody Boxes" type="Node2D" parent="."]
 position = Vector2(255, -109)
 rotation = 0.494464
 
-[node name="Box2" parent="RigidBody Boxes" unique_id=1402363572 instance=ExtResource("1_xt4di")]
+[node name="Box2" parent="RigidBody Boxes" instance=ExtResource("1_xt4di")]
 position = Vector2(59.7708, -64.0347)
 physics_material_override = null
 
-[node name="Box4" parent="RigidBody Boxes" unique_id=797723063 instance=ExtResource("1_xt4di")]
+[node name="Box4" parent="RigidBody Boxes" instance=ExtResource("1_xt4di")]
 position = Vector2(99.5727, 22.4338)
 physics_material_override = null
 
-[node name="Box5" parent="RigidBody Boxes" unique_id=2000295340 instance=ExtResource("1_xt4di")]
+[node name="Box5" parent="RigidBody Boxes" instance=ExtResource("1_xt4di")]
 position = Vector2(89.6681, -8.58068)
 rotation = -2.25658
 physics_material_override = null
 
-[node name="Box3" parent="RigidBody Boxes" unique_id=32670577 instance=ExtResource("1_xt4di")]
+[node name="Box3" parent="RigidBody Boxes" instance=ExtResource("1_xt4di")]
 position = Vector2(78.5465, -35.5308)
 physics_material_override = null
 
-[node name="Floor" type="StaticBody2D" parent="." unique_id=79649187]
+[node name="Floor" type="StaticBody2D" parent="."]
 position = Vector2(0, 102)
 
-[node name="ColorRect" type="ColorRect" parent="Floor" unique_id=1475278738]
+[node name="ColorRect" type="ColorRect" parent="Floor"]
 offset_right = 859.0
 offset_bottom = 40.0
 color = Color(0.482353, 0.678431, 0.447059, 1)
 metadata/_edit_use_anchors_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=1849463698]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor"]
 position = Vector2(430, 20.5)
 shape = SubResource("RectangleShape2D_a27bq")
 
-[node name="Items" type="Node2D" parent="." unique_id=38396143]
+[node name="Items" type="Node2D" parent="."]
 
-[node name="Fruit" parent="Items" unique_id=308437746 instance=ExtResource("2_6h8xj")]
+[node name="Fruit" parent="Items" instance=ExtResource("2_6h8xj")]
 position = Vector2(189, 76)
 
-[node name="Fruit2" parent="Items" unique_id=1441365438 instance=ExtResource("2_6h8xj")]
+[node name="Fruit2" parent="Items" instance=ExtResource("2_6h8xj")]
 position = Vector2(272, 36)
 points = 2
 
-[node name="Fruit3" parent="Items" unique_id=528141328 instance=ExtResource("2_6h8xj")]
+[node name="Fruit3" parent="Items" instance=ExtResource("2_6h8xj")]
 position = Vector2(380, 14)
 points = 387
 
-[node name="Killbox" type="Area2D" parent="." unique_id=1892703483]
+[node name="Killbox" type="Area2D" parent="."]
 position = Vector2(0, 218)
 script = ExtResource("3_74cko")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=570821603]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox"]
 position = Vector2(1050.5, 78.5)
 shape = SubResource("RectangleShape2D_pyoy5")
 
-[node name="Respawn" type="Marker2D" parent="." unique_id=779114574]
+[node name="Respawn" type="Marker2D" parent="."]
 position = Vector2(467, 71)
 
-[node name="Player" parent="." unique_id=1988296727 instance=ExtResource("4_ir8v6")]
+[node name="Player" parent="." instance=ExtResource("4_ir8v6")]
 position = Vector2(11, -160)
 
 [connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

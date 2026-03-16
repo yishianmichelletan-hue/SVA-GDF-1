@@ -1,0 +1,127 @@
+[gd_scene load_steps=6 format=3 uid="uid://bpx0wwraxybbp"]
+
+[sub_resource type="Curve2D" id="Curve2D_0xjwk"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 10, -6, -84, 19, 84, -19, 180, -46, -77, 20, 77, -20, 332, 14, -65, -3.5, 65, 3.5, 480, 81, -58.5, 2.5, 58.5, -2.5, 555, 31, 0, 0, 0, 0, 632, 104, 40, -30.5, -40, 30.5, 674, 197, 0, 0, 0, 0, 364, 233, 59.5, 18, -59.5, -18, 197, 205, 31.5, 24, -31.5, -24, 60, 125, 0, 0, 0, 0, 10, -6)
+}
+point_count = 11
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ujw6x"]
+size = Vector2(121, 39)
+
+[sub_resource type="Animation" id="Animation_gmf2a"]
+resource_name = "Moving Platform"
+length = 5.0
+loop_mode = 2
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Path2D/PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [0.0, 1.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Path2D/PathFollow2D/Platform/ColorRect:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2.18),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0.262745, 0.6, 0.47451, 1), Color(0.919095, 2.13701e-05, 0.630519, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Path2D/PathFollow2D/Platform:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 2.31),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="Animation" id="Animation_fgg3j"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Path2D/PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Path2D/PathFollow2D/Platform/ColorRect:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.262745, 0.6, 0.47451, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Path2D/PathFollow2D/Platform:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_0xjwk"]
+_data = {
+&"Moving Platform": SubResource("Animation_gmf2a"),
+&"RESET": SubResource("Animation_fgg3j")
+}
+
+[node name="PathPlatform" type="Node2D"]
+
+[node name="Path2D" type="Path2D" parent="."]
+position = Vector2(-35, -5)
+curve = SubResource("Curve2D_0xjwk")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+position = Vector2(10, -6)
+rotation = -0.231091
+rotates = false
+
+[node name="Platform" type="AnimatableBody2D" parent="Path2D/PathFollow2D"]
+position = Vector2(21.816, 16.4336)
+rotation = 0.231091
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Path2D/PathFollow2D/Platform"]
+position = Vector2(60.5, 19.5)
+shape = SubResource("RectangleShape2D_ujw6x")
+
+[node name="ColorRect" type="ColorRect" parent="Path2D/PathFollow2D/Platform"]
+offset_right = 122.0
+offset_bottom = 40.0
+color = Color(0.262745, 0.6, 0.47451, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_0xjwk")
+}
+autoplay = "Moving Platform"

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://babsjd4y120k7"]
 
-[ext_resource type="Script" path="res://Examples/Platforms/MovingPlatform.gd" id="1_8xt1f"]
+[ext_resource type="Script" uid="uid://dtwgwj7c3ne63" path="res://Examples/Platforms/MovingPlatform.gd" id="1_8xt1f"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_rm8r7"]
 size = Vector2(121, 39)
@@ -18,3 +18,4 @@ shape = SubResource("RectangleShape2D_rm8r7")
 offset_right = 122.0
 offset_bottom = 40.0
 color = Color(0.262745, 0.6, 0.47451, 1)
+metadata/_edit_use_anchors_ = true

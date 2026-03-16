@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://b8qjwo70eklew"]
+[gd_scene load_steps=39 format=3 uid="uid://b8qjwo70eklew"]
 
 [ext_resource type="Texture2D" uid="uid://bpu1x6phpa0eh" path="res://Assets/Main Characters/Virtual Guy/Idle (32x32).png" id="1_t4ibs"]
 [ext_resource type="Script" uid="uid://c3wrn72ru4bbt" path="res://Examples/Player/Player.gd" id="1_uwvfs"]
@@ -250,22 +250,20 @@ animations = [{
 [sub_resource type="LabelSettings" id="LabelSettings_da8q6"]
 font = ExtResource("5_wllrc")
 font_size = 64
-font_color = Color(1, 0.49019608, 1, 1)
+font_color = Color(1, 0.490196, 1, 1)
 outline_size = 7
-outline_color = Color(1, 1, 0.30588236, 1)
+outline_color = Color(1, 1, 0.305882, 1)
 shadow_size = 7
-shadow_color = Color(0, 0, 0, 0.76862746)
-stacked_outline_count = 1
-stacked_outline_0/size = 13
+shadow_color = Color(0, 0, 0, 0.768627)
 
-[node name="Player" type="CharacterBody2D" unique_id=1825041497]
+[node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_uwvfs")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=877073313]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 3.5)
 shape = SubResource("RectangleShape2D_ekp6u")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1837415067]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
 sprite_frames = SubResource("SpriteFrames_ejdjy")
 animation = &"death"
@@ -273,13 +271,13 @@ autoplay = "idle"
 frame = 6
 frame_progress = 1.0
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=300829623]
+[node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(0, -30)
 zoom = Vector2(3, 3)
 
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1223655430]
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
 
-[node name="Score" type="Label" parent="CanvasLayer" unique_id=657724390]
+[node name="Score" type="Label" parent="CanvasLayer"]
 offset_right = 120.0
 offset_bottom = 42.0
 text = "Score: 0"
