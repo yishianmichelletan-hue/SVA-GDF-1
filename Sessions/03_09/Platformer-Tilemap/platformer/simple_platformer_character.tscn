@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7j4rbebqd2x2"]
+
+[ext_resource type="Script" uid="uid://37u7okquparm" path="res://platformer/simple_platformer.gd" id="1_5uyrg"]
+[ext_resource type="Texture2D" uid="uid://cqmboge0y27ko" path="res://Assets/icon.svg" id="2_a5yf8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sh85a"]
+
+[node name="SimplePlatformer" type="CharacterBody2D"]
+script = ExtResource("1_5uyrg")
+
+[node name="Icon" type="Sprite2D" parent="."]
+scale = Vector2(0.140625, 0.140625)
+texture = ExtResource("2_a5yf8")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(5, 5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_sh85a")

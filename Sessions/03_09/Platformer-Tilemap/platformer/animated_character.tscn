@@ -1,9 +1,9 @@
 [gd_scene load_steps=31 format=3 uid="uid://c6crv0w8wplqg"]
 
-[ext_resource type="Script" path="res://platformer/character_body_2d.gd" id="1_82agy"]
-[ext_resource type="Texture2D" uid="uid://i45eb0760gtj" path="res://Assets/Virtual Guy/Idle (32x32).png" id="1_x7kjt"]
-[ext_resource type="Texture2D" uid="uid://7qyvotnp6qy4" path="res://Assets/Virtual Guy/Run (32x32).png" id="3_hg654"]
-[ext_resource type="Texture2D" uid="uid://iwdufnjndnm8" path="res://Assets/Virtual Guy/Jump (32x32).png" id="3_xvulp"]
+[ext_resource type="Script" uid="uid://de3wmyb02pw5w" path="res://platformer/character_body_2d.gd" id="1_82agy"]
+[ext_resource type="Texture2D" uid="uid://0xjalqys32pv" path="res://Assets/Virtual Guy/Idle (32x32).png" id="1_x7kjt"]
+[ext_resource type="Texture2D" uid="uid://bxucbqbv03lsp" path="res://Assets/Virtual Guy/Run (32x32).png" id="3_hg654"]
+[ext_resource type="Texture2D" uid="uid://cfltm2txydv3f" path="res://Assets/Virtual Guy/Jump (32x32).png" id="3_xvulp"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_i8jno"]
 radius = 12.0
@@ -204,8 +204,9 @@ shape = SubResource("CapsuleShape2D_i8jno")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_l0ghv")
-animation = &"jump"
+animation = &"walk"
 autoplay = "default"
+frame_progress = 0.8602145
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(5, 5)

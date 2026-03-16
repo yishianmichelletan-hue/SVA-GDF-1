@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://dgpbw6gx5p5vw"]
+
+[ext_resource type="PackedScene" uid="uid://c6crv0w8wplqg" path="res://platformer/animated_character.tscn" id="2_jj7lm"]
+[ext_resource type="PackedScene" uid="uid://5tp7f4ebrkl" path="res://platformer/simple_platform.tscn" id="3_flui0"]
+
+[node name="BasicPlatformer" type="Node2D"]
+
+[node name="SimplePlatform" parent="." instance=ExtResource("3_flui0")]
+
+[node name="SimplePlatform2" parent="." instance=ExtResource("3_flui0")]
+position = Vector2(130, -4)
+
+[node name="SimplePlatform3" parent="." instance=ExtResource("3_flui0")]
+position = Vector2(264, -2)
+
+[node name="SimplePlatform4" parent="." instance=ExtResource("3_flui0")]
+position = Vector2(394, 3)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_jj7lm")]
+position = Vector2(0, -48)
