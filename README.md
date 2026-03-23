@@ -194,8 +194,6 @@ Break
 
 ## Week 12 - Monday 3/30 - Advanced 3D Topics and Capstone Presentations
 
-- Capstone presentations
-- Review
 - Lighting and Camera Techniques in 3D Games
 - Materials, Models, Lights, Fog, Camera Attributes
 - Sound
