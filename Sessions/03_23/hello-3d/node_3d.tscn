@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://bkql7dba73jym"]
+
+[ext_resource type="Texture2D" uid="uid://cb4638mlt7ewr" path="res://icon.svg" id="1_a202f"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_4xowi"]
+sky_top_color = Color(0.89061815, 0.8354604, 0.96150106, 1)
+sky_horizon_color = Color(1.0526544, 1.0299362, 1.1659079, 1)
+ground_bottom_color = Color(0.10597121, 0.070256315, 0.48810208, 1)
+ground_horizon_color = Color(1.0526544, 1.0299362, 1.1659079, 1)
+
+[sub_resource type="Sky" id="Sky_a202f"]
+sky_material = SubResource("ProceduralSkyMaterial_4xowi")
+
+[sub_resource type="Environment" id="Environment_noarx"]
+background_mode = 2
+sky = SubResource("Sky_a202f")
+ssao_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_noarx"]
+albedo_color = Color(1, 0.31764707, 1, 1)
+albedo_texture = ExtResource("1_a202f")
+
+[sub_resource type="BoxMesh" id="BoxMesh_4xowi"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a202f"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_a0tk4"]
+
+[node name="Node3D" type="Node3D" unique_id=847224623]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=128795766]
+position = Vector2(154, 121)
+texture = ExtResource("1_a202f")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=312198938]
+environment = SubResource("Environment_noarx")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=821572802]
+transform = Transform3D(-0.73017424, 0.6124242, -0.30295584, -0.6463305, -0.4752994, 0.59694844, 0.22159095, 0.631686, 0.7428798, -0.4111004, 4, 2.794773)
+light_color = Color(0.59593254, 6.3051284e-06, 0.38211024, 1)
+light_energy = 33.7
+shadow_enabled = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1130886416]
+material_override = SubResource("StandardMaterial3D_noarx")
+mesh = SubResource("BoxMesh_4xowi")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" unique_id=845607078]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D" unique_id=462818797]
+shape = SubResource("BoxShape3D_a202f")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=831323603]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0998663, 0.70257074, 3.5820189)
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1651152234]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6417642, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1103134362]
+shape = SubResource("SphereShape3D_a0tk4")
+
+[node name="Sprite3D" type="Sprite3D" parent="RigidBody3D" unique_id=49158207]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.85483885, 0)
+texture = ExtResource("1_a202f")
+
+[node name="Label" type="Label" parent="." unique_id=1594395775]
+offset_left = 937.0
+offset_top = 24.0
+offset_right = 986.0
+offset_bottom = 47.0
+text = "POINT"
