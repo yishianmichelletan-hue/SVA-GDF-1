@@ -1,5 +1,6 @@
 # Top of Mind
-- [Fll out the Capstone Board](https://www.tldraw.com/f/j1y3iGmbjf5sKf27ACrA8?d=v-571.-115.3155.1677.page)
+- [Fill out the Capstone Board](https://www.tldraw.com/f/j1y3iGmbjf5sKf27ACrA8?d=v-571.-115.3155.1677.page)
+- [Hello 3D in class](https://youtu.be/q1qguv9IfV8)
 - [Common 2D Game Design Patterns](https://youtu.be/dAl7IKXBuTE)
 - [Video Tutorial on working with assets](https://fordham.zoom.us/rec/share/ANQ-ca_Prp1ip3dGjLw5jJBhDJBRDaIY3pAGhL6xRjodZbcvddFtetn3EcrgJOIw.LO0VNmkoQg6xAJrd) password: gS^p9%Z!
 
@@ -186,6 +187,7 @@ Break
 - Introduction to 3D in Godot
 
 **DUE: 2D Game**
+
 **Homework: Lab 4**
 **Homework: Capstone Game**
 **Homework: Capstone Presentation**
