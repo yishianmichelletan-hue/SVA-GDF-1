@@ -1,8 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://b5rrt4rovjgt"]
+[gd_scene format=3 uid="uid://b5rrt4rovjgt"]
 
-[ext_resource type="FontFile" uid="uid://bu1e5iea2i4m6" path="res://mexcellent 3d.otf" id="1_0ar8b"]
-[ext_resource type="Script" path="res://main_menu.gd" id="1_05ssl"]
-[ext_resource type="FontFile" uid="uid://bitpop06d1nij" path="res://mexcellent rg.otf" id="2_opqtj"]
+[ext_resource type="FontFile" uid="uid://cixxnb2d6dxbr" path="res://mexcellent 3d.otf" id="1_0ar8b"]
+[ext_resource type="Script" uid="uid://mw76ujqub7b7" path="res://main_menu.gd" id="1_05ssl"]
+[ext_resource type="FontFile" uid="uid://g64tghahmpvm" path="res://mexcellent rg.otf" id="2_opqtj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4trbc"]
 bg_color = Color(0.909804, 0.6, 0.6, 1)
@@ -20,7 +20,7 @@ corner_radius_bottom_left = 4
 font = ExtResource("1_0ar8b")
 font_size = 64
 
-[node name="Control" type="Control"]
+[node name="Control" type="Control" unique_id=825412921]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -29,7 +29,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_05ssl")
 
-[node name="PanelContainer" type="PanelContainer" parent="."]
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=964164660]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -38,24 +38,24 @@ grow_horizontal = 2
 grow_vertical = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_4trbc")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer" unique_id=713405143]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
-[node name="Label" type="Label" parent="PanelContainer/VBoxContainer"]
+[node name="Label" type="Label" parent="PanelContainer/VBoxContainer" unique_id=2053423483]
 layout_mode = 2
 text = "My Cool Game"
 label_settings = SubResource("LabelSettings_6wdrn")
 horizontal_alignment = 1
 
-[node name="Button" type="Button" parent="PanelContainer/VBoxContainer"]
+[node name="Button" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1419694048]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_opqtj")
 theme_override_font_sizes/font_size = 32
 text = "Start Game"
 
-[node name="Button2" type="Button" parent="PanelContainer/VBoxContainer"]
+[node name="Button2" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1137266179]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_opqtj")
 theme_override_font_sizes/font_size = 32

@@ -30,10 +30,13 @@ shape = SubResource("RectangleShape2D_a27bq")
 [node name="Items" type="Node2D" parent="." unique_id=1285207022]
 
 [node name="Fruit" parent="Items" unique_id=1922416793 instance=ExtResource("2_xt4di")]
-position = Vector2(189, 76)
+position = Vector2(156, 40)
+
+[node name="Fruit" parent="Items/Fruit" unique_id=813788521 instance=ExtResource("2_xt4di")]
+position = Vector2(3, -76)
 
 [node name="Fruit2" parent="Items" unique_id=1968943386 instance=ExtResource("2_xt4di")]
-position = Vector2(264, 76)
+position = Vector2(471, 58)
 
 [node name="Fruit3" parent="Items" unique_id=723078112 instance=ExtResource("2_xt4di")]
 position = Vector2(348, 76)
