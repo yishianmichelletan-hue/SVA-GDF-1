@@ -1,6 +1,8 @@
 extends CharacterBody2D
 
-
+var score = 0 
+@export var points_needed = 100
+var respawn_location = Vector2.ZERO 
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 
@@ -9,7 +11,10 @@ const JUMP_VELOCITY = -400.0
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
-var alive = true
+var alive = true 
+
+
+
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -42,17 +47,30 @@ func _physics_process(delta):
 
 
 func kill():
-	position = $"../Respawn".position
-	print("I'm dead!")
+	#position= Vector2(0,0)
+	#position = $"../Respawn".position
+	#print("I'm dead!")
 	
-	#alive = false
-	#animated_sprite_2d.play("death")
+	alive = false
+	animated_sprite_2d.play("death")
 	
 
 
 func _on_animated_sprite_2d_animation_finished():
+	print(animated_sprite_2d.animation)
 	if animated_sprite_2d.animation == "death":
+		position = Vector2(0,0)
 		animated_sprite_2d.play("idle")
-		position = $"../Respawn".position
+		position = $"../Respawn".position #respawn is a node you can place it wherever you want so when u 复活 u go to that point 
 		alive = true
 		
+	
+
+func update_score(amount):
+	score+= amount
+	$Score.text = str("Score:", score) 
+	
+	if score>= points_needed : 
+		get_tree().change_scene_to_file("res://Examples/Levels/respawn_demo_level2.tscn") 
+		# change scene but(not recommended ) 
+	

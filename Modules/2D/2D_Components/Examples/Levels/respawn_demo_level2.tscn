@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://qbh8nt0f5sgr"]
+
+[ext_resource type="PackedScene" uid="uid://b8qjwo70eklew" path="res://Examples/Player/Player.tscn" id="1_bpo6e"]
+[ext_resource type="PackedScene" uid="uid://bbrc4r5uir85h" path="res://Examples/Items/fruit.tscn" id="2_xt4di"]
+[ext_resource type="Script" uid="uid://db8y4b4c2f87r" path="res://Examples/Levels/PlayerKillbox.gd" id="3_6h8xj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a27bq"]
+size = Vector2(860, 41)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pyoy5"]
+size = Vector2(2927, 177)
+
+[node name="RespawnDemo" type="Node2D" unique_id=360272297]
+
+[node name="Player" parent="." unique_id=920629969 instance=ExtResource("1_bpo6e")]
+
+[node name="Floor" type="StaticBody2D" parent="." unique_id=2128947999]
+position = Vector2(0, 102)
+
+[node name="ColorRect" type="ColorRect" parent="Floor" unique_id=1141489744]
+offset_right = 859.0
+offset_bottom = 40.0
+color = Color(0.482353, 0.678431, 0.447059, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Floor" unique_id=1413204536]
+position = Vector2(430, 20.5)
+shape = SubResource("RectangleShape2D_a27bq")
+
+[node name="Items" type="Node2D" parent="." unique_id=1285207022]
+
+[node name="Fruit" parent="Items" unique_id=1922416793 instance=ExtResource("2_xt4di")]
+position = Vector2(189, 76)
+
+[node name="Fruit2" parent="Items" unique_id=1968943386 instance=ExtResource("2_xt4di")]
+position = Vector2(264, 76)
+
+[node name="Fruit3" parent="Items" unique_id=723078112 instance=ExtResource("2_xt4di")]
+position = Vector2(348, 76)
+
+[node name="Killbox" type="Area2D" parent="." unique_id=1303862622]
+position = Vector2(0, 218)
+script = ExtResource("3_6h8xj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killbox" unique_id=1310161614]
+position = Vector2(1050.5, 78.5)
+shape = SubResource("RectangleShape2D_pyoy5")
+
+[node name="Respawn" type="Marker2D" parent="." unique_id=1152341080]
+position = Vector2(230, 79)
+
+[connection signal="body_entered" from="Killbox" to="Killbox" method="_on_body_entered"]

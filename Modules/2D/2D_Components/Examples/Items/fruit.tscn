@@ -1,8 +1,8 @@
-[gd_scene load_steps=29 format=3 uid="uid://bbrc4r5uir85h"]
+[gd_scene format=3 uid="uid://bbrc4r5uir85h"]
 
 [ext_resource type="Texture2D" uid="uid://ccpq6tolgqp5n" path="res://Assets/Items/Fruits/Strawberry.png" id="1_ssclh"]
 [ext_resource type="Texture2D" uid="uid://bniqb34axkjmy" path="res://Assets/Items/Fruits/Collected.png" id="2_k4snk"]
-[ext_resource type="Script" path="res://Examples/Items/fruit.gd" id="3_o64dh"]
+[ext_resource type="Script" uid="uid://rbfh6c0csagf" path="res://Examples/Items/fruit.gd" id="3_o64dh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_wvhk0"]
 atlas = ExtResource("1_ssclh")
@@ -180,17 +180,16 @@ animations = [{
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ovibn"]
 
-[node name="Fruit" type="AnimatedSprite2D"]
+[node name="Fruit" type="AnimatedSprite2D" unique_id=813788521]
 sprite_frames = SubResource("SpriteFrames_mrx4y")
-animation = &"pop"
+animation = &"idle"
 autoplay = "idle"
-frame = 5
-frame_progress = 1.0
+frame_progress = 0.96763575
 script = ExtResource("3_o64dh")
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="Area2D" type="Area2D" parent="." unique_id=2067886418]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1565717820]
 shape = SubResource("CircleShape2D_ovibn")
 
 [connection signal="animation_finished" from="." to="." method="_on_animation_finished"]
