@@ -55,7 +55,7 @@ theme_override_fonts/font = ExtResource("2_opqtj")
 theme_override_font_sizes/font_size = 32
 text = "Start Game"
 
-[node name="Button2" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1137266179]
+[node name="how to play - rules" type="Button" parent="PanelContainer/VBoxContainer" unique_id=1137266179]
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_opqtj")
 theme_override_font_sizes/font_size = 32
@@ -63,3 +63,4 @@ text = "How To Play
 "
 
 [connection signal="button_down" from="PanelContainer/VBoxContainer/Button" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="PanelContainer/VBoxContainer/how to play - rules" to="." method="_on_how_to_play__rules_button_down"]
