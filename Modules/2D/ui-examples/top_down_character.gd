@@ -22,3 +22,8 @@ func change_score(amount):
 
 func my_cool_function():
 	print("wow so cool")
+
+
+func _on_timer_timeout() -> void:
+	get_tree().change_scene_to_file("res://MainMenu.tscn")
+	
