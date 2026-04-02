@@ -1,7 +1,7 @@
-[gd_scene load_steps=11 format=3 uid="uid://bbhdb6udbmorn"]
+[gd_scene format=3 uid="uid://bbhdb6udbmorn"]
 
-[ext_resource type="Script" path="res://Camera3D.gd" id="1_l2325"]
-[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_widay"]
+[ext_resource type="Script" uid="uid://cic0wya3yg6wc" path="res://Camera3D.gd" id="1_l2325"]
+[ext_resource type="Script" uid="uid://ccr0jlejd16bx" path="res://CharacterBody3D.gd" id="1_widay"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_rnvbv"]
 sky_top_color = Color(0.760784, 0.160784, 0.505882, 1)
@@ -36,43 +36,43 @@ size = Vector3(7.55713, 9.62024, 12.1499)
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_cf8sb"]
 
-[node name="Node3D" type="Node3D"]
+[node name="Node3D" type="Node3D" unique_id=1837110679]
 
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=691726976]
 environment = SubResource("Environment_fii6q")
 
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=991819498]
 transform = Transform3D(-0.877199, 0.117597, -0.465502, -0.142782, 0.861784, 0.486767, 0.458404, 0.493457, -0.739166, -0.614259, 9.4365, -10.3517)
 shadow_enabled = true
 
-[node name="Level" type="Node3D" parent="."]
+[node name="Level" type="Node3D" parent="." unique_id=885671267]
 
-[node name="CSGBox3D" type="CSGBox3D" parent="Level"]
-transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -22.5569, 0.606995, 1.05676)
+[node name="CSGBox3D" type="CSGBox3D" parent="Level" unique_id=1219285585]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, -11.897819, -6.6101336, -4.328841)
 use_collision = true
 size = Vector3(14.5627, 2.21399, 2.45917)
 
-[node name="CSGBox3D5" type="CSGBox3D" parent="Level"]
+[node name="CSGBox3D5" type="CSGBox3D" parent="Level" unique_id=1301224745]
 transform = Transform3D(-1.74846e-07, 0, 4, 0, 4, 0, -4, 0, -1.74846e-07, 14.8324, -0.0233803, 24.2931)
 use_collision = true
 size = Vector3(14.5627, 2.21399, 2.45917)
 
-[node name="CSGBox3D2" type="CSGBox3D" parent="Level"]
+[node name="CSGBox3D2" type="CSGBox3D" parent="Level" unique_id=779974819]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 4.22981, 8.2694, -2.22424)
 use_collision = true
 size = Vector3(1.30841, 2.21399, 0.609467)
 
-[node name="CSGBox3D3" type="CSGBox3D" parent="Level"]
+[node name="CSGBox3D3" type="CSGBox3D" parent="Level" unique_id=1162894812]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 4.22981, 8.2694, 4.28594)
 use_collision = true
 size = Vector3(1.30841, 2.21399, 0.609467)
 
-[node name="CSGBox3D4" type="CSGBox3D" parent="Level"]
+[node name="CSGBox3D4" type="CSGBox3D" parent="Level" unique_id=872930672]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 4.22981, 14.3104, 1.03603)
 use_collision = true
 size = Vector3(1.30841, 0.896545, 2.23442)
 
-[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Level"]
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="Level" unique_id=509693945]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.844713, 7.72293, -1.38957)
 use_collision = true
 radius = 1.24507
@@ -80,38 +80,38 @@ height = 4.59807
 sides = 64
 cone = true
 
-[node name="CharacterBody3D" type="CharacterBody3D" parent="Level"]
+[node name="CharacterBody3D" type="CharacterBody3D" parent="Level" unique_id=2131603496]
 transform = Transform3D(0.0520048, 0, -0.998647, 0, 1, 0, 0.998647, 0, 0.0520048, -12.4164, 6.38, 0.751997)
 script = ExtResource("1_widay")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/CharacterBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/CharacterBody3D" unique_id=935319563]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0209806, 0.424708, -0.402892)
 shape = SubResource("CapsuleShape3D_pl5uq")
 
-[node name="CSGMesh3D" type="CSGMesh3D" parent="Level/CharacterBody3D"]
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Level/CharacterBody3D" unique_id=524766978]
 mesh = SubResource("CapsuleMesh_1uoha")
 
-[node name="Camera3D" type="Camera3D" parent="Level/CharacterBody3D"]
+[node name="Camera3D" type="Camera3D" parent="Level/CharacterBody3D" unique_id=329215903]
 transform = Transform3D(0.9995, 0.0261048, -0.0178502, -0.0215248, 0.975091, 0.220757, 0.0231684, -0.220262, 0.975166, -0.0184756, 0.613299, -0.600992)
 
-[node name="Area3D" type="Area3D" parent="Level"]
+[node name="Area3D" type="Area3D" parent="Level" unique_id=1787238282]
 gravity_space_override = 3
 gravity_point_center = Vector3(0, 1, 0)
 gravity_direction = Vector3(0, 1, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/Area3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Level/Area3D" unique_id=528020770]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.58922, 6.68282, -0.256846)
 shape = SubResource("BoxShape3D_m6ecs")
 
-[node name="Thing" type="StaticBody3D" parent="."]
+[node name="Thing" type="StaticBody3D" parent="." unique_id=1018367252]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.5936, 6.25327, 0)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Thing"]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Thing" unique_id=1638993231]
 mesh = SubResource("CylinderMesh_j0all")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Thing"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Thing" unique_id=1912459808]
 shape = SubResource("CylinderShape3D_cf8sb")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=368163508]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.0661, 2.82366, -12.3345)
 script = ExtResource("1_l2325")
